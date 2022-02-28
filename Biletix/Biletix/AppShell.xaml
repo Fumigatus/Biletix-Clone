@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:Biletix.Views"
+       Title="Biletix"
+       x:Class="Biletix.AppShell">
+
+    <Shell.FlyoutHeader>
+        <StackLayout Spacing="0">
+            <Label Text="Tüm işlemlerinizi görebilmek için lütfen üye girişi yapın." BackgroundColor="#009CDE" TextColor="White" FontSize="Small" Padding="15"></Label>
+            <StackLayout Orientation="Horizontal" BackgroundColor="#009CDE" Padding="2">
+                <Image Source="icon_user_flyout.png" Margin="10,0" HeightRequest="55" WidthRequest="55"></Image>
+                <Button BackgroundColor="White" FontSize="16" Text="Giriş Yap" Margin="20,0,0,0" VerticalOptions="Center" HeightRequest="40" TextColor="#009CDE"></Button>
+            </StackLayout>
+            <StackLayout>
+                <Label Padding="10,0,0,0" Text="Hesabım" BackgroundColor="#009CDE" Margin="0,0,0,10" TextColor="White"></Label>
+            </StackLayout>
+        </StackLayout>
+    </Shell.FlyoutHeader>
+
+
+    <FlyoutItem Title="Biletlerim" Icon="icon_ticket_flyout.png">
+        <ShellContent Route="AboutPage" ContentTemplate="{DataTemplate local:AboutPage}" /> <!--Login page-->
+    </FlyoutItem>
+    <FlyoutItem>
+        <ShellContent/> <!--gap--> 
+    </FlyoutItem>
+    <FlyoutItem Title="Listem" Icon="icon_heart_flyout.png">
+        <ShellContent Route="AboutPage" ContentTemplate="{DataTemplate local:AboutPage}" /> <!--List page-->
+    </FlyoutItem>
+    <FlyoutItem Title="Yanımda" Icon="icon_location_flyout.png">
+        <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:ItemsPage}" /> <!--Location page-->
+    </FlyoutItem>
+    <FlyoutItem Title="Online Etkinlikler" Icon="icon_online_flyout.png">
+        <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:ItemsPage}" /> <!--Online page-->
+    </FlyoutItem>
+    <FlyoutItem Title="SEYRETIX" Icon="icon_seyretix_flyout.png">
+        <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:ItemsPage}" /> <!--Seyretix-->
+    </FlyoutItem>
+    <FlyoutItem Title="Hot Ticket" Icon="icon_calender.png">
+        <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:ItemsPage}" /> <!--Hot ticket page-->
+    </FlyoutItem>
+    <FlyoutItem>
+        <ShellContent/>
+        <!--gap-->
+    </FlyoutItem>
+    <FlyoutItem Title="Benim Tercihlerim" Icon="icon_fav.png">
+            <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:ItemsPage}" /> <!--Blank page-->
+    </FlyoutItem>
+    <FlyoutItem Title="Ayarlar" Icon="icon_settings_flyout.png">
+            <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:ItemsPage}" /> <!--Blank page-->
+    </FlyoutItem>
+    <FlyoutItem Title="Daha  Fazlası" Icon="icon_more_flyout.png">
+            <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:ItemsPage}" /> <!--Blank page-->
+    </FlyoutItem>
+
+    <!-- When the Flyout is visible this will be a menu item you can tie a click behavior to  -->
+    <MenuItem Text="Logout" StyleClass="MenuItemLayoutStyle" Clicked="OnMenuItemClicked">
+    </MenuItem>
+
+    <!--
+        TabBar lets you define content that won't show up in a flyout menu. When this content is active
+        the flyout menu won't be available. This is useful for creating areas of the application where 
+        you don't want users to be able to navigate away from. If you would like to navigate to this 
+        content you can do so by calling 
+        await Shell.Current.GoToAsync("//LoginPage");
+    -->
+    <TabBar>
+        <ShellContent Route="LoginPage" ContentTemplate="{DataTemplate local:LoginPage}" />
+    </TabBar>
+
+    <!-- Optional Templates 
+    // These may be provided inline as below or as separate classes.
+
+    // This header appears at the top of the Flyout.
+    // https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/flyout#flyout-header
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Grid>ContentHere</Grid>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+
+    // ItemTemplate is for ShellItems as displayed in a Flyout
+    // https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/flyout#define-flyoutitem-appearance
+    <Shell.ItemTemplate>
+        <DataTemplate>
+            <ContentView>
+                Bindable Properties: Title, Icon
+            </ContentView>
+        </DataTemplate>
+    </Shell.ItemTemplate>
+
+    // MenuItemTemplate is for MenuItems as displayed in a Flyout
+    // https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/flyout#define-menuitem-appearance
+    <Shell.MenuItemTemplate>
+        <DataTemplate>
+            <ContentView>
+                Bindable Properties: Text, Icon
+            </ContentView>
+        </DataTemplate>
+    </Shell.MenuItemTemplate>
+
+    -->
+
+</Shell>
