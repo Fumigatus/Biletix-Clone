@@ -1178,3 +1178,5 @@ D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\stamp\_ConvertResourcesCa
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_music.png
+D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_facebook.png

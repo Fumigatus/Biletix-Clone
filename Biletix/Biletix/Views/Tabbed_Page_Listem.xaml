@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Biletix.Views.Tabbed_Page_Listem">
+    <ContentPage.Content>
+        <StackLayout Padding="15">
+            <Label Text="Müzik Tarzınızı Belirleyin" TextColor="Black" Margin="0,0,0,10" />
+               <!--Facebook-->
+            <Frame BorderColor="#d0d0d0" Padding="1">
+                <StackLayout Orientation="Horizontal" HeightRequest="50">
+                    <Image Source="icon_facebook.png"></Image>
+                    <StackLayout Padding="3">
+                        <Label Text="Facebook" TextColor="Black"></Label>
+                        <Label Text="Facebook" FontSize="10" TextColor="Black"></Label>
+                    </StackLayout>
+                    <Image Source="icon_ticket_flyout.png" HorizontalOptions="EndAndExpand" Margin="10" HeightRequest="30"></Image>
+                </StackLayout>
+            </Frame>
+            <BoxView HeightRequest="0"></BoxView> <!--gap-->
+            <!--Music-->
+            <Frame BorderColor="#d0d0d0" Padding="1">
+                <StackLayout Orientation="Horizontal" HeightRequest="50">
+                    <Image Source="icon_music.png"></Image>
+                    <StackLayout Padding="3">
+                        <Label Text="Music" TextColor="Black"></Label>
+                        <Label Text="Music" FontSize="10" TextColor="Black"></Label>
+                    </StackLayout>
+                    <Image Source="icon_ticket_flyout.png" HorizontalOptions="EndAndExpand" Margin="10" HeightRequest="30"></Image>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
