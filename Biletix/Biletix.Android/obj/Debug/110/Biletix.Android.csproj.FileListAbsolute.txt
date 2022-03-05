@@ -654,7 +654,6 @@ D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_online_
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_settings_flyout.png
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_seyretix_flyout.png
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\heart_flayout.png
-D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_calender.png
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_fav.png
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_location_flyout.png
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_more_flyout.png
@@ -1180,3 +1179,5 @@ D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\stamp\_GeneratePackageMan
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_music.png
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_facebook.png
+D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_map.png
+D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_calendar.png

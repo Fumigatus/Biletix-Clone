@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Biletix.Views.Tabbed_Page_Yakindakiler">
+    <ContentPage.Content>
+        <StackLayout Orientation="Horizontal" Padding="10" VerticalOptions="Start">
+            <Image Source="icon_fav.png"></Image>
+            <Image Source="icon_map.png" HeightRequest="40" HorizontalOptions="EndAndExpand"></Image>
+            <Image Source="icon_calendar.png" HeightRequest="40" HorizontalOptions="End"></Image>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
