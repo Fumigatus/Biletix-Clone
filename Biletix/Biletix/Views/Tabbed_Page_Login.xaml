@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Biletix.Views.Tabbed_Page_Login">
+  <!--Pages can be added as references or inline-->
+    
+           <!--Title-->
+    <Shell.TitleView>
+        <StackLayout >
+            <Image Source="icon_biletix2.png" HeightRequest="40" VerticalOptions="CenterAndExpand" HorizontalOptions="Start"></Image>
+        </StackLayout>
+    </Shell.TitleView>
+    <!--Login-->
+    <ContentPage Title="GİRİŞ YAP">
+
+
+        <StackLayout Padding="20,25">
+            <Label Text="Email"></Label>
+            <Frame Padding="0" Margin="0">
+                <Entry Placeholder="Email" Keyboard="Email" Margin="0,0,50,0" ></Entry>
+            </Frame>
+            <Label Text="Şifre" Margin="0,10,0,0"></Label>
+            <Frame Padding="0" Margin="0">
+                <Entry Placeholder="Şifre" Margin="0,0,50,0" IsPassword="True"></Entry>
+            </Frame>
+            <Button Text="Şifremi Unuttum" BackgroundColor="White" TextColor="DeepPink" HorizontalOptions="Start"></Button>
+            <Button Text="GİRİŞ" HorizontalOptions="Center" WidthRequest="150"></Button>
+        </StackLayout>
+    </ContentPage>
+
+    <!--Register-->
+    <ContentPage Title="YENİ ÜYE">
+        <ScrollView>
+            <StackLayout Padding="20,25">
+                <Label Text="Email"></Label>
+                <Frame Padding="0" Margin="0,0,50,0">
+                    <Entry Keyboard="Email"></Entry>
+                </Frame>
+                <Label Text="Şifre" Margin="0,10,0,0"></Label>
+                <Frame Padding="0" Margin="0,0,50,0">
+                    <Entry IsPassword="True"></Entry>
+                </Frame>
+                <Label Text="Şifre Tekrar" Margin="0,10,0,0"></Label>
+                <Frame Padding="0" Margin="0,0,50,0" >
+                    <Entry IsPassword="True"></Entry>
+                </Frame>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="İsim" Margin="0,10,0,0" HorizontalOptions="StartAndExpand"></Label>
+                    <Label Text="Soyisim" Margin="0,10,125,0"></Label>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Frame Padding="0" Margin="0,0,15,0">
+                        <Entry HorizontalOptions="CenterAndExpand" WidthRequest="175"></Entry>
+                    </Frame>
+                    <Frame Padding="0" Margin="0,0,0,0">
+                        <Entry HorizontalOptions="CenterAndExpand" WidthRequest="175" ></Entry>
+                    </Frame>
+                </StackLayout>
+                <Label Text="Telefon Numaranız" Margin="0,10,0,0"></Label>
+                <StackLayout Orientation="Horizontal">
+                    <Frame Padding="10" Margin="0,0,15,0">
+                        <Label Text="+90" FontSize="20" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+                    </Frame>
+                    <Frame Padding="0" Margin="0,0,0,0" HorizontalOptions="FillAndExpand">
+                        <Entry Keyboard="Telephone"></Entry>
+                    </Frame>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Cinsiyet" Margin="0,10,0,0" HorizontalOptions="StartAndExpand"></Label>
+                    <Label Text="Doğum Tarihi" Margin="0,10,125,0"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Picker Title="Seçiniz" HorizontalOptions="Start">
+
+                    </Picker>
+                    <DatePicker HorizontalOptions="EndAndExpand" WidthRequest="150" Margin="0,0,60,0"></DatePicker>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <CheckBox Color="DarkGray"></CheckBox>
+                    <Label Text="Kişisel Verilerin Korunması Hakkında Bilgilendirme metnini okudum ve içeriğini anladım."></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <CheckBox Color="DarkGray" VerticalOptions="Start"></CheckBox>
+                    <Label Text="Kişisel verilerimin, Biletix üyelik kaydı oluşturmak ve üyelik haklarından yararlanmak amacıyla Biletix'in Kişisel Verilerin Korunması Hakkında Bilgilendirme metni'nde yer alan hususlarda işlenmesine ve paylaşılmasına aydınlatılmış açık rızam ile onay veriyorum."></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <CheckBox Color="Gray" VerticalOptions="Start"></CheckBox>
+                    <Label Text="Biletix Etkinlik Habercisi ile özel promosyon ve kampanya duyularını e-posta ve sms yoluyla almak istiyorum."
+                           TextColor="DeepPink"></Label>
+                </StackLayout>
+                <Button Text="KAYDET" HorizontalOptions="Center" WidthRequest="150"></Button>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+</TabbedPage>

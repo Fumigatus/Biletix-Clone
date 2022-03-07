@@ -10,7 +10,7 @@
             <Label Text="Tüm işlemlerinizi görebilmek için lütfen üye girişi yapın." BackgroundColor="#009CDE" TextColor="White" FontSize="Small" Padding="15"></Label>
             <StackLayout Orientation="Horizontal" BackgroundColor="#009CDE" Padding="2">
                 <Image Source="icon_user_flyout.png" Margin="10,0" HeightRequest="55" WidthRequest="55"></Image>
-                <Button BackgroundColor="White" FontSize="16" Text="Giriş Yap" Margin="20,0,0,0" VerticalOptions="Center" HeightRequest="40" TextColor="#009CDE"></Button>
+                <Button x:Name="btn_login" Clicked="Click_Login" BackgroundColor="White" FontSize="16" Text="Giriş Yap" Margin="20,0,0,0" VerticalOptions="Center" HeightRequest="40" TextColor="#009CDE"></Button>
             </StackLayout>
             <StackLayout>
                 <Label Padding="10,0,0,0" Text="Hesabım" BackgroundColor="#009CDE" Margin="0,0,0,10" TextColor="White"></Label>
@@ -20,19 +20,19 @@
 
 
     <FlyoutItem Title="Biletlerim" Icon="icon_ticket_flyout.png">
-        <ShellContent Route="AboutPage" ContentTemplate="{DataTemplate local:Tabbed_Page_Yakindakiler}" /> <!--Login page-->
+        <ShellContent Route="AboutPage" ContentTemplate="{DataTemplate local:Tabbed_Page_Login}" /> <!--Login page-->
     </FlyoutItem>
     <FlyoutItem>
         <ShellContent/> <!--gap--> 
     </FlyoutItem>
     <FlyoutItem Title="Listem" Icon="icon_heart_flyout.png">
-        <ShellContent Route="AboutPage" ContentTemplate="{DataTemplate local:AboutPage}" /> <!--List page-->
+        <ShellContent Route="AboutPage" ContentTemplate="{DataTemplate local:Tabbed_Page_Listem}" /> <!--List page-->
     </FlyoutItem>
-    <FlyoutItem Title="Yanımda" Icon="icon_location_flyout.png">
-        <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:ItemsPage}" /> <!--Location page-->
+    <FlyoutItem Title="Yakınımda" Icon="icon_location_flyout.png">
+        <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:Tabbed_Page_Yakindakiler}" /> <!--Location page-->
     </FlyoutItem>
     <FlyoutItem Title="Online Etkinlikler" Icon="icon_online_flyout.png">
-        <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:ItemsPage}" /> <!--Online page-->
+        <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:Tabbed_Page_Online}" /> <!--Online page-->
     </FlyoutItem>
     <FlyoutItem Title="SEYRETIX" Icon="icon_seyretix_flyout.png">
         <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:ItemsPage}" /> <!--Seyretix-->

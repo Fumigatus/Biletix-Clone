@@ -19,5 +19,11 @@ namespace Biletix
         {
             await Shell.Current.GoToAsync("//LoginPage");
         }
+
+        void Click_Login(object sender, EventArgs e)
+        {
+            FlyoutIsPresented = false;
+            Navigation.PushAsync(new Tabbed_Page_Login());
+        }
     }
 }
