@@ -20,25 +20,25 @@
 
 
     <FlyoutItem Title="Biletlerim" Icon="icon_ticket_flyout.png">
-        <ShellContent Route="AboutPage" ContentTemplate="{DataTemplate local:Tabbed_Page_Hot}" /> <!--Login page-->
+        <ShellContent Route="AboutPage" ContentTemplate="{DataTemplate local:Tabbed_Page_Login}" /> <!--Login page-->
     </FlyoutItem>
     <FlyoutItem>
         <ShellContent/> <!--gap--> 
     </FlyoutItem>
     <FlyoutItem Title="Listem" Icon="icon_heart_flyout.png">
-        <ShellContent Route="AboutPage" ContentTemplate="{DataTemplate local:Tabbed_Page_Listem}" /> <!--List page-->
+        <ShellContent Route="AboutPage" ContentTemplate="{DataTemplate local:TabbedPage_Main}" /> <!--List page-->
     </FlyoutItem>
     <FlyoutItem Title="Yakınımda" Icon="icon_location_flyout.png">
-        <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:Tabbed_Page_Yakindakiler}" /> <!--Location page-->
+        <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:TabbedPage_Main}" /> <!--Location page-->
     </FlyoutItem>
     <FlyoutItem Title="Online Etkinlikler" Icon="icon_online_flyout.png">
-        <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:Tabbed_Page_Online}" /> <!--Online page-->
+        <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:TabbedPage_Main}" /> <!--Online page-->
+    </FlyoutItem>
+    <FlyoutItem x:Name="Hot_Ticket_Page" Title="Hot Ticket" Icon="icon_calendar.png">
+        <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:TabbedPage_Main}" /> <!--Hot ticket page-->
     </FlyoutItem>
     <FlyoutItem Title="SEYRETIX" Icon="icon_seyretix_flyout.png">
         <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:ItemsPage}" /> <!--Seyretix-->
-    </FlyoutItem>
-    <FlyoutItem Title="Hot Ticket" Icon="icon_calendar.png">
-        <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:Tabbed_Page_Hot}" /> <!--Hot ticket page-->
     </FlyoutItem>
     <FlyoutItem>
         <ShellContent/>

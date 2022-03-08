@@ -11,7 +11,16 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Views\Tabbed_Page_Yakinimda.xaml.cs">
+      <DependentUpon>Tabbed_Page_Yakinimda.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
     <EmbeddedResource Update="Views\Settings_Page.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\TabbedPage_Main.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Tabbed_Page_Hot.xaml">
@@ -26,7 +35,7 @@
     <EmbeddedResource Update="Views\Tabbed_Page_Online.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\Tabbed_Page_Yakindakiler.xaml">
+    <EmbeddedResource Update="Views\Tabbed_Page_Yakinimda.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

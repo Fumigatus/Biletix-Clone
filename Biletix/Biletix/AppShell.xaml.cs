@@ -11,6 +11,7 @@ namespace Biletix
         public AppShell()
         {
             InitializeComponent();
+            CurrentItem = Hot_Ticket_Page;
             Routing.RegisterRoute(nameof(ItemDetailPage), typeof(ItemDetailPage));
             Routing.RegisterRoute(nameof(NewItemPage), typeof(NewItemPage));
         }

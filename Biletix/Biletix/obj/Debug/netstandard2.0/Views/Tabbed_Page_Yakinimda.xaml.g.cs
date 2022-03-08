@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Biletix.Views.Tabbed_Page_Yakindakiler.xaml", "Views/Tabbed_Page_Yakindakiler.xaml", typeof(global::Biletix.Views.Tabbed_Page_Yakindakiler))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Biletix.Views.Tabbed_Page_Yakinimda.xaml", "Views/Tabbed_Page_Yakinimda.xaml", typeof(global::Biletix.Views.Tabbed_Page_Yakindakiler))]
 
 namespace Biletix.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Tabbed_Page_Yakindakiler.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Tabbed_Page_Yakinimda.xaml")]
     public partial class Tabbed_Page_Yakindakiler : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
