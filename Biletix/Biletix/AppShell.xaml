@@ -9,7 +9,7 @@
         <StackLayout Spacing="0">
             <Label Text="Tüm işlemlerinizi görebilmek için lütfen üye girişi yapın." BackgroundColor="#009CDE" TextColor="White" FontSize="Small" Padding="15"></Label>
             <StackLayout Orientation="Horizontal" BackgroundColor="#009CDE" Padding="2">
-                <Image Source="icon_user_flyout.png" Margin="10,0" HeightRequest="55" WidthRequest="55"></Image>
+                <Image Source="icon_user_flyout.png" Margin="10,0"  HeightRequest="55" WidthRequest="55"></Image>
                 <Button x:Name="btn_login" Clicked="Click_Login" BackgroundColor="White" FontSize="16" Text="Giriş Yap" Margin="20,0,0,0" VerticalOptions="Center" HeightRequest="40" TextColor="#009CDE"></Button>
             </StackLayout>
             <StackLayout>
@@ -20,7 +20,7 @@
 
 
     <FlyoutItem Title="Biletlerim" Icon="icon_ticket_flyout.png">
-        <ShellContent Route="AboutPage" ContentTemplate="{DataTemplate local:Tabbed_Page_Login}" /> <!--Login page-->
+        <ShellContent Route="AboutPage" ContentTemplate="{DataTemplate local:Tabbed_Page_Online}" /> <!--Login page-->
     </FlyoutItem>
     <FlyoutItem>
         <ShellContent/> <!--gap--> 
@@ -45,13 +45,13 @@
         <!--gap-->
     </FlyoutItem>
     <FlyoutItem Title="Benim Tercihlerim" Icon="icon_fav.png">
-            <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:ItemsPage}" /> <!--Blank page-->
+            <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:ItemsPage}" /> <!--Fav page-->
     </FlyoutItem>
     <FlyoutItem Title="Ayarlar" Icon="icon_settings_flyout.png">
-            <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:ItemsPage}" /> <!--Blank page-->
+            <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:Settings_Page}" /> <!--Settings page-->
     </FlyoutItem>
     <FlyoutItem Title="Daha  Fazlası" Icon="icon_more_flyout.png">
-            <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:ItemsPage}" /> <!--Blank page-->
+            <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:ItemsPage}" /> <!--More page-->
     </FlyoutItem>
 
     <!-- When the Flyout is visible this will be a menu item you can tie a click behavior to  -->

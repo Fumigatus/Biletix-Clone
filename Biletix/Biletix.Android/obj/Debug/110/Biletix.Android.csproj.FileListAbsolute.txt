@@ -644,7 +644,6 @@ D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\mipmap-xxhdpi\icon.pn
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\mipmap-xxhdpi\launcher_foreground.png
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\mipmap-xxxhdpi\icon.png
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\mipmap-xxxhdpi\launcher_foreground.png
-D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\xamarin_logo.png
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_biletix.png
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_biletix2.png
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_user_flyout.png
@@ -1181,3 +1180,16 @@ D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_music.p
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_facebook.png
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_map.png
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_calendar.png
+D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\xamarin_logo.jpg
+D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\hot_yildiz.jpg
+D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\online_bana.jpg
+D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\online_bin.jpg
+D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\online_ilelebet.jpg
+D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\online_kulkedisi.jpg
+D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\online_ofis.jpg
+D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\online_zombili.jpg
+D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\hot_aydinlik.jpg
+D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\hot_bkm.jpg
+D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\hot_dada.jpg
+D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\hot_fisekhane.jpg
+D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\hot_sut.jpg
