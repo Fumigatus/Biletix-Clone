@@ -20,7 +20,7 @@
 
 
     <FlyoutItem Title="Biletlerim" Icon="icon_ticket_flyout.png">
-        <ShellContent Route="AboutPage" ContentTemplate="{DataTemplate local:Tabbed_Page_Online}" /> <!--Login page-->
+        <ShellContent Route="AboutPage" ContentTemplate="{DataTemplate local:Tabbed_Page_Hot}" /> <!--Login page-->
     </FlyoutItem>
     <FlyoutItem>
         <ShellContent/> <!--gap--> 
@@ -38,7 +38,7 @@
         <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:ItemsPage}" /> <!--Seyretix-->
     </FlyoutItem>
     <FlyoutItem Title="Hot Ticket" Icon="icon_calendar.png">
-        <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:ItemsPage}" /> <!--Hot ticket page-->
+        <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:Tabbed_Page_Hot}" /> <!--Hot ticket page-->
     </FlyoutItem>
     <FlyoutItem>
         <ShellContent/>

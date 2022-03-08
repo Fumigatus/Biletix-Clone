@@ -8,7 +8,7 @@
                 <Grid Grid.Row="0">
                     <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0">
                         <Grid>
-                            <!--image+top text-->
+                            <!--image + top text gradient-->
                             <ImageButton  Source="online_ilelebet.jpg" Aspect="AspectFill"></ImageButton>
                             <Image Source="icon_heart_flyout.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
                             <Frame Padding="0" VerticalOptions="Start" HorizontalOptions="Start" CornerRadius="10" IsClippedToBounds="True">
@@ -24,7 +24,7 @@
                                 </Label>
                             </Frame>
                             <Grid  RowSpacing="0" VerticalOptions="End" Padding="15,10">
-                                <!--bottom text+gradient-->
+                                <!--bottom text + gradient grid-->
                                 <Grid.Background>
                                     <LinearGradientBrush EndPoint="1,0">
                                         <GradientStop Color="Black" Offset="0"></GradientStop>
@@ -42,6 +42,7 @@
                 <Grid Grid.Row="1">
                     <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0">
                         <Grid>
+                            <!--image + top text gradient-->
                             <ImageButton Source="online_kulkedisi.jpg" Aspect="Fill"></ImageButton>
                             <Image Source="icon_heart_flyout.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
                             <Frame BackgroundColor="#00FBC1BC" Padding="0" VerticalOptions="Start" HorizontalOptions="Start" CornerRadius="10" IsClippedToBounds="True">
@@ -57,7 +58,7 @@
                                 </Label>
                             </Frame>
                             <Grid  RowSpacing="0" VerticalOptions="End" Padding="15,10">
-                                <!--bottom text+gradient-->
+                                <!--bottom text + gradient grid-->
                                 <Grid.Background>
                                     <LinearGradientBrush EndPoint="1,0">
                                         <GradientStop Color="Black" Offset="0"></GradientStop>
@@ -71,10 +72,12 @@
                         </Grid>
                     </Frame>
                 </Grid>
+                
 
                 <Grid Grid.Row="2">
                     <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0">
                         <Grid>
+                            <!--image + top text grid-->
                             <ImageButton Source="online_ofis.jpg" Aspect="Fill"></ImageButton>
                             <Image Source="icon_heart_flyout.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
                             <Frame BackgroundColor="#00FBC1BC" Padding="0" VerticalOptions="Start" HorizontalOptions="Start" CornerRadius="10" IsClippedToBounds="True">
@@ -90,7 +93,7 @@
                                 </Label>
                             </Frame>
                             <Grid  RowSpacing="0" VerticalOptions="End" Padding="15,10">
-                                <!--bottom text+gradient-->
+                                <!--bottom text + gradient grid-->
                                 <Grid.Background>
                                     <LinearGradientBrush EndPoint="1,0">
                                         <GradientStop Color="Black" Offset="0"></GradientStop>
@@ -107,6 +110,7 @@
                 <Grid Grid.Row="3">
                     <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0">
                         <Grid>
+                            <!--image + top text gradient-->
                             <ImageButton Source="online_zombili.jpg" Aspect="Fill"></ImageButton>
                             <Image Source="icon_heart_flyout.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
                             <Frame BackgroundColor="#00FBC1BC" Padding="0" VerticalOptions="Start" HorizontalOptions="Start" CornerRadius="10" IsClippedToBounds="True">
@@ -122,7 +126,7 @@
                                 </Label>
                             </Frame>
                             <Grid  RowSpacing="0" VerticalOptions="End" Padding="15,10">
-                                <!--bottom text+gradient-->
+                                <!--bottom text + gradient grid-->
                                 <Grid.Background>
                                     <LinearGradientBrush EndPoint="1,0">
                                         <GradientStop Color="Black" Offset="0"></GradientStop>

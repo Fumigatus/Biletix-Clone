@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Biletix.Views.Tabbed_Page_Hot">
+    <ContentPage.Content>
+        <ScrollView Padding="10">
+            <Grid>
+                <Grid Grid.Row="0">
+                    <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0">
+                        <Grid>
+                            <ImageButton  Source="hot_yildiz.jpg" Aspect="AspectFill"></ImageButton>
+                            <Image Source="icon_heart_flyout.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
+                            <Grid  RowSpacing="0" VerticalOptions="End" Padding="15,10">
+                                <!--bottom text + gradient grid-->
+                                <Grid.Background>
+                                    <LinearGradientBrush EndPoint="1,0">
+                                        <GradientStop Color="Black" Offset="0"></GradientStop>
+                                        <GradientStop Color="#0000" Offset="1"></GradientStop>
+                                    </LinearGradientBrush>
+                                </Grid.Background>
+                                <Label Text="26 Mart" TextColor="White" Grid.Row="0"></Label>
+                                <Label Text="Yıldız Tilbe" TextColor="White" Grid.Row="1" FontAttributes="Bold"></Label>
+                                <Label Text="Ülker Spor ve Etkinlik Salonu, İstanbul" TextColor="White" Grid.Row="2"></Label>
+                            </Grid>
+                        </Grid>
+                    </Frame>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0">
+                        <Grid>
+                            <ImageButton  Source="hot_dada.jpg" Aspect="AspectFill"></ImageButton>
+                            <Image Source="icon_heart_flyout.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
+                            <Grid  RowSpacing="0" VerticalOptions="End" Padding="15,10">
+                                <!--bottom text + gradient grid-->
+                                <Grid.Background>
+                                    <LinearGradientBrush EndPoint="1,0">
+                                        <GradientStop Color="Black" Offset="0"></GradientStop>
+                                        <GradientStop Color="#0000" Offset="1"></GradientStop>
+                                    </LinearGradientBrush>
+                                </Grid.Background>
+                                <Label Text="09 Mart - 30 Nisan" TextColor="White" Grid.Row="0"></Label>
+                                <Label Text="Dada Salon Kabarett" TextColor="White" Grid.Row="1" FontAttributes="Bold"></Label>
+                                <Label Text="Dada Salon Kabarett, İstanbul" TextColor="White" Grid.Row="2"></Label>
+                            </Grid>
+                        </Grid>
+                    </Frame>
+                </Grid>
+                <Grid Grid.Row="2">
+                    <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0">
+                        <Grid>
+                            <ImageButton  Source="hot_bkm.jpg" Aspect="AspectFill"></ImageButton>
+                            <Image Source="icon_heart_flyout.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
+                            <Grid  RowSpacing="0" VerticalOptions="End" Padding="15,10">
+                                <!--bottom text + gradient grid-->
+                                <Grid.Background>
+                                    <LinearGradientBrush EndPoint="1,0">
+                                        <GradientStop Color="Black" Offset="0"></GradientStop>
+                                        <GradientStop Color="#0000" Offset="1"></GradientStop>
+                                    </LinearGradientBrush>
+                                </Grid.Background>
+                                <Label Text="12 Mart - 27 Nisan" TextColor="White" Grid.Row="0"></Label>
+                                <Label Text="BKM Etkinlikleri - Maximum Uniq" TextColor="White" Grid.Row="1" FontAttributes="Bold"></Label>
+                                <Label Text="Çeşitli Mekanlar" TextColor="White" Grid.Row="2"></Label>
+                            </Grid>
+                        </Grid>
+                    </Frame>
+                </Grid>
+                <Grid Grid.Row="3">
+                    <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0">
+                        <Grid>
+                            <ImageButton  Source="hot_aydinlik.jpg" Aspect="AspectFill"></ImageButton>
+                            <Image Source="icon_heart_flyout.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
+                            <Grid  RowSpacing="0" VerticalOptions="End" Padding="15,10">
+                                <!--bottom text + gradient grid-->
+                                <Grid.Background>
+                                    <LinearGradientBrush EndPoint="1,0">
+                                        <GradientStop Color="Black" Offset="0"></GradientStop>
+                                        <GradientStop Color="#0000" Offset="1"></GradientStop>
+                                    </LinearGradientBrush>
+                                </Grid.Background>
+                                <Label Text="26 Mart" TextColor="White" Grid.Row="0"></Label>
+                                <Label Text="Aydınlıkevler" TextColor="White" Grid.Row="1" FontAttributes="Bold"></Label>
+                                <Label Text="Maximum UNIQ Hall, İstanbul" TextColor="White" Grid.Row="2"></Label>
+                            </Grid>
+                        </Grid>
+                    </Frame>
+                </Grid>
+                <Grid Grid.Row="4">
+                    <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0">
+                        <Grid>
+                            <ImageButton  Source="hot_sut.jpg" Aspect="AspectFill"></ImageButton>
+                            <Image Source="icon_heart_flyout.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
+                            <Grid  RowSpacing="0" VerticalOptions="End" Padding="15,10">
+                                <!--bottom text + gradient grid-->
+                                <Grid.Background>
+                                    <LinearGradientBrush EndPoint="1,0">
+                                        <GradientStop Color="Black" Offset="0"></GradientStop>
+                                        <GradientStop Color="#0000" Offset="1"></GradientStop>
+                                    </LinearGradientBrush>
+                                </Grid.Background>
+                                <Label Text="10 Mart - 25 Mayıs" TextColor="White" Grid.Row="0"></Label>
+                                <Label Text="Süt Kardeşler" TextColor="White" Grid.Row="1" FontAttributes="Bold"></Label>
+                                <Label Text="Çeşitli Mekanlar" TextColor="White" Grid.Row="2"></Label>
+                            </Grid>
+                        </Grid>
+                    </Frame>
+                </Grid>
+                <Grid Grid.Row="4">
+                    <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0">
+                        <Grid>
+                            <ImageButton  Source="hot_fisekhane.jpg" Aspect="AspectFill"></ImageButton>
+                            <Image Source="icon_heart_flyout.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
+                            <Grid  RowSpacing="0" VerticalOptions="End" Padding="15,10">
+                                <!--bottom text + gradient grid-->
+                                <Grid.Background>
+                                    <LinearGradientBrush EndPoint="1,0">
+                                        <GradientStop Color="Black" Offset="0"></GradientStop>
+                                        <GradientStop Color="#0000" Offset="1"></GradientStop>
+                                    </LinearGradientBrush>
+                                </Grid.Background>
+                                <Label Text="09 Mart - 20 Mayıs" TextColor="White" Grid.Row="0"></Label>
+                                <Label Text="Fişekhane Sahne" TextColor="White" Grid.Row="1" FontAttributes="Bold"></Label>
+                                <Label Text="Çeşitli Mekanlar" TextColor="White" Grid.Row="2"></Label>
+                            </Grid>
+                        </Grid>
+                    </Frame>
+                </Grid>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
