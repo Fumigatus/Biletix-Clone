@@ -4,6 +4,13 @@
              x:Class="Biletix.Views.TabbedPage_Main"
             xmlns:local="clr-namespace:Biletix.Views">
   <!--Pages can be added as references or inline-->
+    <Shell.TitleView>
+        <StackLayout Orientation="Horizontal">
+            <Image Source="biletix2.png" VerticalOptions="Center" HorizontalOptions="StartAndExpand" HeightRequest="40"/>
+            <ImageButton Source="icon_filter.png" BackgroundColor="#0000" HorizontalOptions="End" WidthRequest="40"/>
+            <ImageButton Source="icon_search.png" BackgroundColor="#0000" HorizontalOptions="End" Margin="10,0" />
+        </StackLayout>
+    </Shell.TitleView>
     <local:Tabbed_Page_Listem Title="LİSTEM"></local:Tabbed_Page_Listem>
     <local:Tabbed_Page_Yakindakiler Title="YAKINIMDA"></local:Tabbed_Page_Yakindakiler>
     <local:Tabbed_Page_Online Title="ONLINE ETKİNLİKLER"></local:Tabbed_Page_Online>

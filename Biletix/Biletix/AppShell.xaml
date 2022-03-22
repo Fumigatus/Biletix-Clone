@@ -19,14 +19,14 @@
     </Shell.FlyoutHeader>
 
 
-    <FlyoutItem Title="Biletlerim" Icon="icon_ticket_flyout.png">
+    <FlyoutItem Title="Biletlerim" Icon="icon_ticket.png">
         <ShellContent Route="AboutPage" ContentTemplate="{DataTemplate local:Tabbed_Page_Login}" /> <!--Login page-->
     </FlyoutItem>
     <FlyoutItem>
         <ShellContent/> <!--gap--> 
     </FlyoutItem>
-    <FlyoutItem Title="Listem" Icon="icon_heart_flyout.png">
-        <ShellContent Route="AboutPage" ContentTemplate="{DataTemplate local:TabbedPage_Main}" /> <!--List page-->
+    <FlyoutItem Title="Listem" Icon="icon_heart.png">
+        <ShellContent Route="AboutPage" ContentTemplate="{DataTemplate local:Online_Ilelebet}" /> <!--List page-->
     </FlyoutItem>
     <FlyoutItem Title="Yakınımda" Icon="icon_location_flyout.png">
         <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:TabbedPage_Main}" /> <!--Location page-->

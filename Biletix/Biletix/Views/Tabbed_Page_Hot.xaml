@@ -9,7 +9,7 @@
                     <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0">
                         <Grid>
                             <ImageButton  Source="hot_yildiz.jpg" Aspect="AspectFill"></ImageButton>
-                            <Image Source="icon_heart_flyout.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
+                            <Image Source="icon_heart.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
                             <Grid  RowSpacing="0" VerticalOptions="End" Padding="15,10">
                                 <!--bottom text + gradient grid-->
                                 <Grid.Background>
@@ -29,7 +29,7 @@
                     <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0">
                         <Grid>
                             <ImageButton  Source="hot_dada.jpg" Aspect="AspectFill"></ImageButton>
-                            <Image Source="icon_heart_flyout.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
+                            <Image Source="icon_heart.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
                             <Grid  RowSpacing="0" VerticalOptions="End" Padding="15,10">
                                 <!--bottom text + gradient grid-->
                                 <Grid.Background>
@@ -49,7 +49,7 @@
                     <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0">
                         <Grid>
                             <ImageButton  Source="hot_bkm.jpg" Aspect="AspectFill"></ImageButton>
-                            <Image Source="icon_heart_flyout.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
+                            <Image Source="icon_heart.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
                             <Grid  RowSpacing="0" VerticalOptions="End" Padding="15,10">
                                 <!--bottom text + gradient grid-->
                                 <Grid.Background>
@@ -69,7 +69,7 @@
                     <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0">
                         <Grid>
                             <ImageButton  Source="hot_aydinlik.jpg" Aspect="AspectFill"></ImageButton>
-                            <Image Source="icon_heart_flyout.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
+                            <Image Source="icon_heart.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
                             <Grid  RowSpacing="0" VerticalOptions="End" Padding="15,10">
                                 <!--bottom text + gradient grid-->
                                 <Grid.Background>
@@ -89,7 +89,7 @@
                     <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0">
                         <Grid>
                             <ImageButton  Source="hot_sut.jpg" Aspect="AspectFill"></ImageButton>
-                            <Image Source="icon_heart_flyout.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
+                            <Image Source="icon_heart.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
                             <Grid  RowSpacing="0" VerticalOptions="End" Padding="15,10">
                                 <!--bottom text + gradient grid-->
                                 <Grid.Background>
@@ -109,7 +109,7 @@
                     <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0">
                         <Grid>
                             <ImageButton  Source="hot_fisekhane.jpg" Aspect="AspectFill"></ImageButton>
-                            <Image Source="icon_heart_flyout.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
+                            <Image Source="icon_heart.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
                             <Grid  RowSpacing="0" VerticalOptions="End" Padding="15,10">
                                 <!--bottom text + gradient grid-->
                                 <Grid.Background>

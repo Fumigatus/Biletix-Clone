@@ -10,7 +10,7 @@
                         <Grid>
                             <!--image + top text gradient-->
                             <ImageButton  Source="online_ilelebet.jpg" Aspect="AspectFill"></ImageButton>
-                            <Image Source="icon_heart_flyout.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
+                            <Image Source="icon_heart.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
                             <Frame Padding="0" VerticalOptions="Start" HorizontalOptions="Start" CornerRadius="10" IsClippedToBounds="True">
                                 <Label Text="ONLINE ETKINLIK" Padding="5" BackgroundColor="Purple" 
                                    TextColor="White" FontAttributes="Bold" HorizontalOptions="Start"
@@ -44,7 +44,7 @@
                         <Grid>
                             <!--image + top text gradient-->
                             <ImageButton Source="online_kulkedisi.jpg" Aspect="Fill"></ImageButton>
-                            <Image Source="icon_heart_flyout.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
+                            <Image Source="icon_heart.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
                             <Frame BackgroundColor="#00FBC1BC" Padding="0" VerticalOptions="Start" HorizontalOptions="Start" CornerRadius="10" IsClippedToBounds="True">
                                 <Label Text="ONLINE ETKINLIK" Padding="5" BackgroundColor="Purple" 
                                    TextColor="White" FontAttributes="Bold" HorizontalOptions="Start"
@@ -79,7 +79,7 @@
                         <Grid>
                             <!--image + top text grid-->
                             <ImageButton Source="online_ofis.jpg" Aspect="Fill"></ImageButton>
-                            <Image Source="icon_heart_flyout.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
+                            <Image Source="icon_heart.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
                             <Frame BackgroundColor="#00FBC1BC" Padding="0" VerticalOptions="Start" HorizontalOptions="Start" CornerRadius="10" IsClippedToBounds="True">
                                 <Label Text="ONLINE ETKINLIK" Padding="5" BackgroundColor="Purple" 
                                    TextColor="White" FontAttributes="Bold" HorizontalOptions="Start"
@@ -112,7 +112,7 @@
                         <Grid>
                             <!--image + top text gradient-->
                             <ImageButton Source="online_zombili.jpg" Aspect="Fill"></ImageButton>
-                            <Image Source="icon_heart_flyout.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
+                            <Image Source="icon_heart.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
                             <Frame BackgroundColor="#00FBC1BC" Padding="0" VerticalOptions="Start" HorizontalOptions="Start" CornerRadius="10" IsClippedToBounds="True">
                                 <Label Text="ONLINE ETKINLIK" Padding="5" BackgroundColor="Purple" 
                                    TextColor="White" FontAttributes="Bold" HorizontalOptions="Start"

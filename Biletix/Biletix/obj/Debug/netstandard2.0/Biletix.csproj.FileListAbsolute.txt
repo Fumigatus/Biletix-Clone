@@ -45,3 +45,4 @@ D:\Biletix-Clone\Biletix\Biletix\obj\Debug\netstandard2.0\Views\Settings_Page.xa
 D:\Biletix-Clone\Biletix\Biletix\obj\Debug\netstandard2.0\Views\Tabbed_Page_Hot.xaml.g.cs
 D:\Biletix-Clone\Biletix\Biletix\obj\Debug\netstandard2.0\Views\TabbedPage_Main.xaml.g.cs
 D:\Biletix-Clone\Biletix\Biletix\obj\Debug\netstandard2.0\Views\Tabbed_Page_Yakinimda.xaml.g.cs
+D:\Biletix-Clone\Biletix\Biletix\obj\Debug\netstandard2.0\Views\Online_Ilelebet.xaml.g.cs

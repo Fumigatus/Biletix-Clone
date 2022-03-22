@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Biletix.Views.Tabbed_Page_Login">
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:customrenderer="clr-namespace:Biletix.CustomRenderer"
+            x:Class="Biletix.Views.Tabbed_Page_Login">
   <!--Pages can be added as references or inline-->
     
            <!--Title-->
     <Shell.TitleView>
         <StackLayout >
-            <Image Source="icon_biletix2.png" HeightRequest="40" VerticalOptions="CenterAndExpand" HorizontalOptions="Start"></Image>
+            <Image Source="biletix2.png" HeightRequest="40" VerticalOptions="CenterAndExpand" HorizontalOptions="Start"></Image>
         </StackLayout>
     </Shell.TitleView>
     <!--Login-->
@@ -17,11 +17,19 @@
         <StackLayout Padding="20,25">
             <Label Text="Email"></Label>
             <Frame Padding="0" Margin="0">
-                <Entry Placeholder="Email" Keyboard="Email" Margin="0,0,50,0" ></Entry>
+                <Entry Placeholder="Email" Keyboard="Email" Margin="0,0,50,0" >
+                    <Entry.Effects>
+                        <customrenderer:Unlined/>
+                    </Entry.Effects>
+                </Entry>
             </Frame>
             <Label Text="Şifre" Margin="0,10,0,0"></Label>
             <Frame Padding="0" Margin="0">
-                <Entry Placeholder="Şifre" Margin="0,0,50,0" IsPassword="True"></Entry>
+                <Entry Placeholder="Şifre" Margin="0,0,50,0" IsPassword="True">
+                    <Entry.Effects>
+                        <customrenderer:Unlined/>
+                    </Entry.Effects>
+                </Entry>
             </Frame>
             <Button Text="Şifremi Unuttum" BackgroundColor="White" TextColor="DeepPink" HorizontalOptions="Start"></Button>
             <Button Text="GİRİŞ" HorizontalOptions="Center" WidthRequest="150"></Button>
@@ -34,15 +42,27 @@
             <StackLayout Padding="20,25">
                 <Label Text="Email"></Label>
                 <Frame Padding="0" Margin="0,0,50,0">
-                    <Entry Keyboard="Email"></Entry>
+                    <Entry Keyboard="Email">
+                        <Entry.Effects>
+                            <customrenderer:Unlined/>
+                        </Entry.Effects>
+                    </Entry>
                 </Frame>
                 <Label Text="Şifre" Margin="0,10,0,0"></Label>
                 <Frame Padding="0" Margin="0,0,50,0">
-                    <Entry IsPassword="True"></Entry>
+                    <Entry IsPassword="True">
+                        <Entry.Effects>
+                            <customrenderer:Unlined/>
+                        </Entry.Effects>
+                    </Entry>
                 </Frame>
                 <Label Text="Şifre Tekrar" Margin="0,10,0,0"></Label>
                 <Frame Padding="0" Margin="0,0,50,0" >
-                    <Entry IsPassword="True"></Entry>
+                    <Entry IsPassword="True">
+                        <Entry.Effects>
+                            <customrenderer:Unlined/>
+                        </Entry.Effects>
+                    </Entry>
                 </Frame>
                 <StackLayout Orientation="Horizontal">
                     <Label Text="İsim" Margin="0,10,0,0" HorizontalOptions="StartAndExpand"></Label>
@@ -51,10 +71,18 @@
 
                 <StackLayout Orientation="Horizontal">
                     <Frame Padding="0" Margin="0,0,15,0">
-                        <Entry HorizontalOptions="CenterAndExpand" WidthRequest="175"></Entry>
+                        <Entry HorizontalOptions="CenterAndExpand" WidthRequest="175">
+                            <Entry.Effects>
+                                <customrenderer:Unlined/>
+                            </Entry.Effects>
+                        </Entry>
                     </Frame>
                     <Frame Padding="0" Margin="0,0,0,0">
-                        <Entry HorizontalOptions="CenterAndExpand" WidthRequest="175" ></Entry>
+                        <Entry HorizontalOptions="CenterAndExpand" WidthRequest="175" >
+                            <Entry.Effects>
+                                <customrenderer:Unlined/>
+                            </Entry.Effects>
+                        </Entry>
                     </Frame>
                 </StackLayout>
                 <Label Text="Telefon Numaranız" Margin="0,10,0,0"></Label>
@@ -63,7 +91,11 @@
                         <Label Text="+90" FontSize="20" VerticalOptions="Center" HorizontalOptions="Center"></Label>
                     </Frame>
                     <Frame Padding="0" Margin="0,0,0,0" HorizontalOptions="FillAndExpand">
-                        <Entry Keyboard="Telephone"></Entry>
+                        <Entry Keyboard="Telephone">
+                            <Entry.Effects>
+                                <customrenderer:Unlined/>
+                            </Entry.Effects>
+                        </Entry>
                     </Frame>
                 </StackLayout>
                 <StackLayout Orientation="Horizontal">
@@ -72,9 +104,15 @@
                 </StackLayout>
                 <StackLayout Orientation="Horizontal">
                     <Picker Title="Seçiniz" HorizontalOptions="Start">
-
+                        <Picker.Effects>
+                            <customrenderer:Unlined/>
+                        </Picker.Effects>
                     </Picker>
-                    <DatePicker HorizontalOptions="EndAndExpand" WidthRequest="150" Margin="0,0,60,0"></DatePicker>
+                    <DatePicker HorizontalOptions="EndAndExpand" WidthRequest="150" Margin="0,0,60,0">
+                        <DatePicker.Effects>
+                            <customrenderer:Unlined/>
+                        </DatePicker.Effects>
+                    </DatePicker>
                 </StackLayout>
                 <StackLayout Orientation="Horizontal">
                     <CheckBox Color="DarkGray"></CheckBox>
