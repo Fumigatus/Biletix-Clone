@@ -27,29 +27,29 @@
                     <StackLayout Spacing="0">
                         <Frame Padding="5" BorderColor="#e0e0e0">
                             <StackLayout Orientation="Horizontal">
-                                <Image Source="icon_online_earth.png" HorizontalOptions="Start" VerticalOptions="Start" WidthRequest="40"></Image>
+                                <ImageButton BackgroundColor="#0000" Source="icon_online_earth.png" HorizontalOptions="Start" VerticalOptions="Start" WidthRequest="40"></ImageButton>
                                 <StackLayout Orientation="Vertical">
                                     <Label Text="Mekan Sayfası" FontSize="Medium"></Label>
                                     <Label Text="sahneport"></Label>
                                 </StackLayout>
-                                <Image Source="icon_more_than.png" WidthRequest="30" HorizontalOptions="EndAndExpand" VerticalOptions="Start"></Image>
+                                <ImageButton BackgroundColor="#0000" Source="icon_more_than.png" WidthRequest="30" HorizontalOptions="EndAndExpand" VerticalOptions="Start"></ImageButton>
                             </StackLayout>
                         </Frame>
 
                         <Frame Padding="5" BorderColor="#e0e0e0">
                             <StackLayout Orientation="Horizontal">
-                                <Image Source="icon_online_info.png" HorizontalOptions="Start" VerticalOptions="Start" WidthRequest="40"></Image>
+                                <ImageButton BackgroundColor="#0000" Source="icon_online_info.png" HorizontalOptions="Start" VerticalOptions="Start" WidthRequest="40"></ImageButton>
                                 <StackLayout Orientation="Vertical">
                                     <Label Text="Etkinlik Bilgileri" FontSize="Medium"></Label>
                                     <Label MaxLines="1" Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."></Label>
                                 </StackLayout>
-                                <Image Source="icon_more.png" WidthRequest="30" HorizontalOptions="EndAndExpand" VerticalOptions="Start"></Image>
+                                <ImageButton Source="icon_more.png" BackgroundColor="#0000" HorizontalOptions="End" WidthRequest="40"></ImageButton>
                             </StackLayout>
                         </Frame>
 
                         <Frame Padding="5" BorderColor="#e0e0e0">
                             <StackLayout Orientation="Horizontal">
-                                <Image Source="icon_online_price.png" HorizontalOptions="Start" VerticalOptions="Start" WidthRequest="40"></Image>
+                                <ImageButton BackgroundColor="#0000" Source="icon_online_price.png" HorizontalOptions="Start" VerticalOptions="Start" WidthRequest="40"></ImageButton>
                                 <StackLayout Orientation="Vertical">
                                     <Label Text="Bilet Fiyatları" FontSize="Medium"></Label>
                                     <Label Text="Online İzle - 35.00₺"></Label>
@@ -60,26 +60,26 @@
 
                         <Frame Padding="5" BorderColor="#e0e0e0">
                             <StackLayout Orientation="Horizontal">
-                                <Image Source="icon_online_notes.png" HorizontalOptions="Start" VerticalOptions="Start" WidthRequest="40"></Image>
+                                <ImageButton BackgroundColor="#0000" Source="icon_online_notes.png" HorizontalOptions="Start" VerticalOptions="Start" WidthRequest="40"></ImageButton>
                                 <StackLayout Orientation="Vertical">
                                     <Label Text="Etkinlik Notları" FontSize="Medium"></Label>
                                     <Label MaxLines="1" Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."></Label>
                                 </StackLayout>
-                                <Image Source="icon_more.png" WidthRequest="30" HorizontalOptions="EndAndExpand" VerticalOptions="Start"></Image>
+                                <ImageButton Source="icon_more.png" BackgroundColor="#0000" HorizontalOptions="End" WidthRequest="40"></ImageButton>
                             </StackLayout>
                         </Frame>
                     </StackLayout>
                     <StackLayout Spacing="0">
                         <Frame Padding="5" BorderColor="#e0e0e0">
                             <StackLayout Orientation="Horizontal">
-                                <Image Source="icon_online_website.png" HorizontalOptions="Start" VerticalOptions="Start" WidthRequest="40"></Image>
+                                <ImageButton BackgroundColor="#0000" Source="icon_online_website.png" HorizontalOptions="Start" VerticalOptions="Start" WidthRequest="40"></ImageButton>
                                 <Label Text="Resmi Site" VerticalOptions="Center" FontSize="Medium"></Label>
-                                <Image Source="icon_more.png" WidthRequest="30" HorizontalOptions="EndAndExpand" VerticalOptions="Start"></Image>
+                                <ImageButton Source="icon_more.png" BackgroundColor="#0000" HorizontalOptions="End" WidthRequest="40"></ImageButton>
                             </StackLayout>
                         </Frame>
                         <Frame Padding="5" BorderColor="#e0e0e0">
                             <StackLayout Orientation="Horizontal">
-                                <Image Source="icon_online_gallery.png" HorizontalOptions="Start" VerticalOptions="Start" WidthRequest="40"></Image>
+                                <ImageButton BackgroundColor="#0000" Source="icon_online_gallery.png" HorizontalOptions="Start" VerticalOptions="Start" WidthRequest="40"></ImageButton>
                                 <Label Text="Galeri ve Video" VerticalOptions="Center" FontSize="Medium"></Label>
                                 <Image Source="icon_ticket.png" WidthRequest="30" HorizontalOptions="EndAndExpand" VerticalOptions="Start"></Image>
                             </StackLayout>
@@ -119,8 +119,20 @@
                                     <customrenderer:Unlined/>
                                 </Picker.Effects>
                             </Picker>
-                            <Image Source="icon_online_plan.png" HorizontalOptions="Start" WidthRequest="40"></Image>
                             <Frame Padding="0.1" BackgroundColor="#e0e0e0"></Frame>
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="icon_online_plan.png" HorizontalOptions="Start" WidthRequest="40"></Image>
+                                <Label Text="Oturma Planı" VerticalOptions="Center" HorizontalOptions="StartAndExpand"></Label>
+                                <ImageButton Source="icon_more.png" BackgroundColor="#0000" HorizontalOptions="End" WidthRequest="40"></ImageButton>
+                            </StackLayout>
+                            <Label Text="Online etkinliktir." VerticalOptions="Center" TextColor="#005FFF" FontSize="35" FontAttributes="Bold" HorizontalOptions="Center" Margin="0,30,0,0"></Label>
+                            <Image Source="https://picsum.photos/id/25/200/200" WidthRequest="500" HeightRequest="500"></Image> 
+                        </StackLayout>
+                    </Frame>
+                    <Frame Padding="5" Margin="0,0,0,15" BorderColor="#e0e0e0">
+                        <StackLayout>
+                            <Label Text="Eğer bu bileti istemiyorsanız bir daha aratın" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+                            <Button Text="Devam" BackgroundColor="#009CDE" VerticalOptions="Center" HorizontalOptions="Center"></Button>
                         </StackLayout>
                     </Frame>
                 </StackLayout>

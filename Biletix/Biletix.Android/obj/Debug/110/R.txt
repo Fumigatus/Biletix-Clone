@@ -1395,7 +1395,7 @@ int drawable icon_filter 0x7f07007c
 int drawable icon_heart 0x7f07007d
 int drawable icon_location_flyout 0x7f07007e
 int drawable icon_map 0x7f07007f
-int drawable icon_more_flyout 0x7f070080
+int drawable icon_more 0x7f070080
 int drawable icon_more_than 0x7f070081
 int drawable icon_music 0x7f070082
 int drawable icon_online_earth 0x7f070083

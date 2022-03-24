@@ -6509,7 +6509,7 @@ public final class R {
     public static final int icon_heart=0x7f07007d;
     public static final int icon_location_flyout=0x7f07007e;
     public static final int icon_map=0x7f07007f;
-    public static final int icon_more_flyout=0x7f070080;
+    public static final int icon_more=0x7f070080;
     public static final int icon_more_than=0x7f070081;
     public static final int icon_music=0x7f070082;
     public static final int icon_online_earth=0x7f070083;

@@ -11728,7 +11728,7 @@ namespace Biletix.Droid
 			public const int icon_map = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int icon_more_flyout = 2131165312;
+			public const int icon_more = 2131165312;
 			
 			// aapt resource value: 0x7F070081
 			public const int icon_more_than = 2131165313;

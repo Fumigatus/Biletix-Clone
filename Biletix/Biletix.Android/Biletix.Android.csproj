@@ -166,7 +166,7 @@
     <AndroidResource Include="Resources\drawable\icon_map.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\icon_more_flyout.png" />
+    <AndroidResource Include="Resources\drawable\icon_more.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\icon_more_than.png" />
