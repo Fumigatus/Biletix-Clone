@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Biletix.Views.Mekan_Page">
+    <ContentPage.Content>
+        <ScrollView Padding="15">
+            <StackLayout Spacing="20">
+                <!--top info-->
+                <StackLayout>
+                    <Frame Padding="15,5" BorderColor="#e0e0e0">
+                        <StackLayout>
+                            <Label Text="Mekan Lokasyonu" TextColor="#009CDE" FontSize="Medium"></Label>
+                            <Frame Padding="0.1" BackgroundColor="#e0e0e0"></Frame>
+                            <Label Text="BEŞİKTAŞ/İstanbul"></Label>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+                <!--mid info-->
+                <StackLayout>
+                    <Frame Padding="10,5" BorderColor="#e0e0e0">
+                        <StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                            <Image Source="icon_info.png" VerticalOptions="Center" HorizontalOptions="Start" WidthRequest="40"></Image>
+                                <StackLayout Spacing="0">
+                                    <Label Text="Mekan Bilgileri" FontSize="Medium"></Label>
+                                    <Label Text="Sahneport, Performans Sanatları'ndan, Konserlere; Sevgi ve Müzeler'den Özel İçeriklere kadar geniş kültür sanat seçkisiyle sanatsal içerikleri Video on Demand (VOD) veya Live Streaming yolutla siz sanatseverlere ulaştırıyor." MaxLines="1"></Label>
+                                </StackLayout>
+                                <ImageButton Source="icon_more.png" BackgroundColor="#0000" WidthRequest="40" HorizontalOptions="EndAndExpand"></ImageButton>
+                            </StackLayout>
+                            <Frame Padding="0.1" BackgroundColor="#e0e0e0"></Frame>
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="icon_online_plan.png" WidthRequest="40" HorizontalOptions="Start" VerticalOptions="Center"></Image>
+                                <Label Text="Oturma Planı" FontSize="Medium" VerticalOptions="Center"></Label>
+                                <ImageButton Source="icon_more_than.png" BackgroundColor="#0000" WidthRequest="35" HorizontalOptions="EndAndExpand"></ImageButton>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+                <!--Other events-->
+                <StackLayout>
+                    <Frame BorderColor="#e0e0e0" Padding="15,5">
+                        <StackLayout>
+                            <Label Text="6 Etkinlik" TextColor="#009CDE" FontSize="Medium"></Label>
+                            <Frame BackgroundColor="#e0e0e0" Padding="0.1"></Frame>
+                            <StackLayout></StackLayout>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

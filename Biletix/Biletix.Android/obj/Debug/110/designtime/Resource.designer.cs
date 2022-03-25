@@ -11722,31 +11722,31 @@ namespace Biletix.Droid
 			public const int icon_heart = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int icon_location_flyout = 2131165310;
+			public const int icon_info = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int icon_map = 2131165311;
+			public const int icon_location_flyout = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int icon_more = 2131165312;
+			public const int icon_map = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int icon_more_than = 2131165313;
+			public const int icon_more = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int icon_music = 2131165314;
+			public const int icon_more_than = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int icon_online_earth = 2131165315;
+			public const int icon_music = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int icon_online_flyout = 2131165316;
+			public const int icon_online_earth = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int icon_online_gallery = 2131165317;
+			public const int icon_online_flyout = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int icon_online_info = 2131165318;
+			public const int icon_online_gallery = 2131165318;
 			
 			// aapt resource value: 0x7F070087
 			public const int icon_online_notes = 2131165319;

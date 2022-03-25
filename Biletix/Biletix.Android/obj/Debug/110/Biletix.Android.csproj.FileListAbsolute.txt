@@ -1192,7 +1192,6 @@ D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_filter.
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_more_than.png
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_online_earth.png
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_online_gallery.png
-D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_online_info.png
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_online_notes.png
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_online_plan.png
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_online_price.png
@@ -1202,3 +1201,4 @@ D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_ticket.
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_calendar.png
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_heart.png
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_more.png
+D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_info.png

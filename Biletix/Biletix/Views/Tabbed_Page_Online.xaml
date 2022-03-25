@@ -9,7 +9,7 @@
                     <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0">
                         <Grid>
                             <!--image + top text gradient-->
-                            <ImageButton  Source="online_ilelebet.jpg" Aspect="AspectFill"></ImageButton>
+                            <ImageButton  Source="online_ilelebet.jpg" Aspect="AspectFill" Clicked="Ilelebet_Clicked"></ImageButton>
                             <Image Source="icon_heart.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
                             <Frame Padding="0" VerticalOptions="Start" HorizontalOptions="Start" CornerRadius="10" IsClippedToBounds="True">
                                 <Label Text="ONLINE ETKINLIK" Padding="5" BackgroundColor="Purple" 

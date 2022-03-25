@@ -26,7 +26,7 @@
         <ShellContent/> <!--gap--> 
     </FlyoutItem>
     <FlyoutItem Title="Listem" Icon="icon_heart.png">
-        <ShellContent Route="AboutPage" ContentTemplate="{DataTemplate local:Online_Ilelebet}" /> <!--List page-->
+        <ShellContent Route="AboutPage" ContentTemplate="{DataTemplate local:TabbedPage_Main}" /> <!--List page-->
     </FlyoutItem>
     <FlyoutItem Title="Yakınımda" Icon="icon_location_flyout.png">
         <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:TabbedPage_Main}" /> <!--Location page-->
