@@ -12,9 +12,23 @@ namespace Biletix.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Mekan_Page : ContentPage
     {
+        bool clicked = true;
         public Mekan_Page()
         {
             InitializeComponent();
+        }
+        void Mekan_Clicked(object sender, EventArgs args)
+        {
+            if (clicked == false)
+            {
+                mekanInfoLabel.MaxLines = 15;
+                clicked = true;
+            }
+            else if (clicked == true)
+            {
+                mekanInfoLabel.MaxLines = 1;
+                clicked = false;
+            }
         }
     }
 }

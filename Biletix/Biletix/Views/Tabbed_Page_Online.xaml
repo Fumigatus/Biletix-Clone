@@ -5,6 +5,7 @@
     <ContentPage.Content>
         <ScrollView Padding="10">
             <Grid>
+                
                 <Grid Grid.Row="0">
                     <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0">
                         <Grid>
@@ -72,7 +73,6 @@
                         </Grid>
                     </Frame>
                 </Grid>
-                
 
                 <Grid Grid.Row="2">
                     <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0">
@@ -107,6 +107,7 @@
                         </Grid>
                     </Frame>
                 </Grid>
+                
                 <Grid Grid.Row="3">
                     <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0">
                         <Grid>
@@ -135,6 +136,74 @@
                                 </Grid.Background>
                                 <Label Text="31 Aralık" TextColor="White" Grid.Row="0"></Label>
                                 <Label Text="3+1 Zomili" TextColor="White" Grid.Row="1" FontAttributes="Bold"></Label>
+                                <Label Text="Tiyatronet, İstanbul" TextColor="White" Grid.Row="2"></Label>
+                            </Grid>
+                        </Grid>
+                    </Frame>
+                </Grid>
+
+                <Grid Grid.Row="4">
+                    <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0">
+                        <Grid>
+                            <!--image + top text gradient-->
+                            <ImageButton Source="online_bana.jpg" Aspect="Fill"></ImageButton>
+                            <Image Source="icon_heart.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
+                            <Frame BackgroundColor="#00FBC1BC" Padding="0" VerticalOptions="Start" HorizontalOptions="Start" CornerRadius="10" IsClippedToBounds="True">
+                                <Label Text="ONLINE ETKINLIK" Padding="5" BackgroundColor="Purple" 
+                                   TextColor="White" FontAttributes="Bold" HorizontalOptions="Start"
+                                   VerticalOptions="Start">
+                                    <Label.Background>
+                                        <LinearGradientBrush EndPoint="1,0">
+                                            <GradientStop Color="Purple" Offset="0.1"></GradientStop>
+                                            <GradientStop Color="#009DEF" Offset="1"></GradientStop>
+                                        </LinearGradientBrush>
+                                    </Label.Background>
+                                </Label>
+                            </Frame>
+                            <Grid  RowSpacing="0" VerticalOptions="End" Padding="15,10">
+                                <!--bottom text + gradient grid-->
+                                <Grid.Background>
+                                    <LinearGradientBrush EndPoint="1,0">
+                                        <GradientStop Color="Black" Offset="0"></GradientStop>
+                                        <GradientStop Color="#0021" Offset="1"></GradientStop>
+                                    </LinearGradientBrush>
+                                </Grid.Background>
+                                <Label Text="31 Aralık" TextColor="White" Grid.Row="0"></Label>
+                                <Label Text="Bana Amy De" TextColor="White" Grid.Row="1" FontAttributes="Bold"></Label>
+                                <Label Text="Tiyatronet, İstanbul" TextColor="White" Grid.Row="2"></Label>
+                            </Grid>
+                        </Grid>
+                    </Frame>
+                </Grid>
+
+                <Grid Grid.Row="5">
+                    <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0">
+                        <Grid>
+                            <!--image + top text gradient-->
+                            <ImageButton Source="online_binbir.jpg" Aspect="Fill"></ImageButton>
+                            <Image Source="icon_heart.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
+                            <Frame BackgroundColor="#00FBC1BC" Padding="0" VerticalOptions="Start" HorizontalOptions="Start" CornerRadius="10" IsClippedToBounds="True">
+                                <Label Text="ONLINE ETKINLIK" Padding="5" BackgroundColor="Purple" 
+                                   TextColor="White" FontAttributes="Bold" HorizontalOptions="Start"
+                                   VerticalOptions="Start">
+                                    <Label.Background>
+                                        <LinearGradientBrush EndPoint="1,0">
+                                            <GradientStop Color="Purple" Offset="0.1"></GradientStop>
+                                            <GradientStop Color="#009DEF" Offset="1"></GradientStop>
+                                        </LinearGradientBrush>
+                                    </Label.Background>
+                                </Label>
+                            </Frame>
+                            <Grid  RowSpacing="0" VerticalOptions="End" Padding="15,10">
+                                <!--bottom text + gradient grid-->
+                                <Grid.Background>
+                                    <LinearGradientBrush EndPoint="1,0">
+                                        <GradientStop Color="Black" Offset="0"></GradientStop>
+                                        <GradientStop Color="#0021" Offset="1"></GradientStop>
+                                    </LinearGradientBrush>
+                                </Grid.Background>
+                                <Label Text="31 Aralık" TextColor="White" Grid.Row="0"></Label>
+                                <Label Text="Binbir Gece Masalları" TextColor="White" Grid.Row="1" FontAttributes="Bold"></Label>
                                 <Label Text="Tiyatronet, İstanbul" TextColor="White" Grid.Row="2"></Label>
                             </Grid>
                         </Grid>

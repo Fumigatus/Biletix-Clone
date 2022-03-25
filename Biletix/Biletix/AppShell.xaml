@@ -50,7 +50,7 @@
     <FlyoutItem Title="Ayarlar" Icon="icon_settings_flyout.png">
             <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:Settings_Page}" /> <!--Settings page-->
     </FlyoutItem>
-    <FlyoutItem Title="Daha  Fazlası" Icon="icon_more_flyout.png">
+    <FlyoutItem Title="Daha  Fazlası" Icon="icon_more.png">
             <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:ItemsPage}" /> <!--More page-->
     </FlyoutItem>
 
