@@ -41,9 +41,9 @@
                                 <ImageButton BackgroundColor="#0000" Source="icon_info.png" HorizontalOptions="Start" VerticalOptions="Start" WidthRequest="40"></ImageButton>
                                 <StackLayout Orientation="Vertical">
                                     <Label Text="Etkinlik Bilgileri" FontSize="Medium"></Label>
-                                    <Label MaxLines="1" Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."></Label>
+                                    <Label MaxLines="1" x:Name="infoLabel" Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."></Label>
                                 </StackLayout>
-                                <ImageButton Source="icon_more.png" BackgroundColor="#0000" HorizontalOptions="End" WidthRequest="35" VerticalOptions="Start"></ImageButton>
+                                <ImageButton Source="icon_more.png" BackgroundColor="#0000" HorizontalOptions="End" WidthRequest="35" VerticalOptions="Start" Clicked="Info_Clicked"></ImageButton>
                             </StackLayout>
                         </Frame>
 
@@ -63,9 +63,9 @@
                                 <ImageButton BackgroundColor="#0000" Source="icon_online_notes.png" HorizontalOptions="Start" VerticalOptions="Start" WidthRequest="40"></ImageButton>
                                 <StackLayout Orientation="Vertical">
                                     <Label Text="Etkinlik Notları" FontSize="Medium"></Label>
-                                    <Label MaxLines="1" Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."></Label>
+                                    <Label MaxLines="1" x:Name="notesLabel" Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."></Label>
                                 </StackLayout>
-                                <ImageButton Source="icon_more.png" BackgroundColor="#0000" HorizontalOptions="End" WidthRequest="35" VerticalOptions="Start"></ImageButton>
+                                <ImageButton Source="icon_more.png" BackgroundColor="#0000" HorizontalOptions="End" WidthRequest="35" VerticalOptions="Start" Clicked=""></ImageButton>
                             </StackLayout>
                         </Frame>
                     </StackLayout>

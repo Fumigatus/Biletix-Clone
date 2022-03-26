@@ -21,7 +21,7 @@
                     <Frame Padding="10,5" BorderColor="#e0e0e0">
                         <StackLayout>
                             <StackLayout Orientation="Horizontal">
-                            <Image Source="icon_info.png" VerticalOptions="Center" HorizontalOptions="Start" WidthRequest="40"></Image>
+                                <ImageButton BackgroundColor="#0000" Clicked="Mekan_Clicked" Source="icon_info.png" VerticalOptions="Start" HorizontalOptions="Start" WidthRequest="40"></ImageButton>
                                 <StackLayout Spacing="0">
                                     <Label Text="Mekan Bilgileri" FontSize="Medium"></Label>
                                     <Label Text="Sahneport, Performans Sanatları'ndan, Konserlere; Sevgi ve Müzeler'den Özel İçeriklere kadar geniş kültür sanat seçkisiyle sanatsal içerikleri Video on Demand (VOD) veya Live Streaming yolutla siz sanatseverlere ulaştırıyor." MaxLines="1" x:Name="mekanInfoLabel"></Label>
