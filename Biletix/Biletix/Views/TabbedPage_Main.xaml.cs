@@ -16,5 +16,10 @@ namespace Biletix.Views
         {
             InitializeComponent();
         }
+
+        private async void Search_Clicked(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new Search());
+        }
     }
 }

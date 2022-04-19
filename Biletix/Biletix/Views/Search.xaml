@@ -4,9 +4,23 @@
              x:Class="Biletix.Views.Search">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <SearchBar Placeholder="Ara" x:Name="searchBar" TextChanged="Sb_Text_Change"></SearchBar>
+            <CollectionView x:Name="myCollectionView" ItemsSource="{Binding events}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <ScrollView>
+                            <Grid BackgroundColor="White">
+                                <Frame Padding="10" BorderColor="Black">
+                                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" >
+                                        <ImageButton BackgroundColor="#0000" Source="{Binding image}" Grid.Row="0" Grid.Column="0" HeightRequest="100" WidthRequest="100"></ImageButton>
+                                        <Label FontSize="20" Margin="20,0" TextColor="Black" VerticalOptions="Center" Text="{Binding name}"></Label>
+                                    </StackLayout>
+                                </Frame>
+                            </Grid>
+                        </ScrollView>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

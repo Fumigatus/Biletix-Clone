@@ -8,7 +8,7 @@
         <StackLayout Orientation="Horizontal">
             <Image Source="biletix2.png" VerticalOptions="Center" HorizontalOptions="StartAndExpand" HeightRequest="40"/>
             <ImageButton Source="icon_filter.png" BackgroundColor="#0000" HorizontalOptions="End" WidthRequest="40"/>
-            <ImageButton Source="icon_search.png" BackgroundColor="#0000" HorizontalOptions="End" Margin="10,0" />
+            <ImageButton Source="icon_search.png" BackgroundColor="#0000" HorizontalOptions="End" Margin="10,0" Clicked="Search_Clicked"/>
         </StackLayout>
     </Shell.TitleView>
     <local:Tabbed_Page_Listem Title="LİSTEM"></local:Tabbed_Page_Listem>
