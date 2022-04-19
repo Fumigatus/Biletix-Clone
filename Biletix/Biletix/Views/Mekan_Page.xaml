@@ -32,7 +32,7 @@
                             <StackLayout Orientation="Horizontal">
                                 <Image Source="icon_online_plan.png" WidthRequest="40" HorizontalOptions="Start" VerticalOptions="Center"></Image>
                                 <Label Text="Oturma Planı" FontSize="Medium" VerticalOptions="Center"></Label>
-                                <ImageButton Source="icon_more_than.png" BackgroundColor="#0000" WidthRequest="30" VerticalOptions="Start" HorizontalOptions="EndAndExpand"></ImageButton>
+                                <ImageButton Source="icon_more_than.png" Clicked="Oturma_Clicked" BackgroundColor="#0000" WidthRequest="30" VerticalOptions="Start" HorizontalOptions="EndAndExpand"></ImageButton>
                             </StackLayout>
                         </StackLayout>
                     </Frame>

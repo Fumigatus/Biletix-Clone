@@ -30,5 +30,9 @@ namespace Biletix.Views
                 clicked = false;
             }
         }
+        private void Oturma_Clicked(object sender, EventArgs e)
+        {
+            DisplayAlert("Oturma Planı", "Online Etkinliktir.", "Tamam");
+        }
     }
 }
