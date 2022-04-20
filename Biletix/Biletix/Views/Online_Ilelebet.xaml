@@ -94,7 +94,7 @@
                                 <StackLayout Orientation="Horizontal">
                                     <Picker Title="Kampanya Tipi" TitleColor="Gray" HorizontalOptions="Start" BackgroundColor="#f9f9f9">
                                         <Picker.Items>
-
+                                            
                                         </Picker.Items>
                                         <Picker.Effects>
                                             <customrenderer:Unlined/>

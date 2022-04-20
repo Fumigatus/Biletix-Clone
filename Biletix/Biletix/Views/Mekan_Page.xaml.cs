@@ -34,5 +34,30 @@ namespace Biletix.Views
         {
             DisplayAlert("Oturma Planı", "Online Etkinliktir.", "Tamam");
         }
+
+        private void Kulkedisi_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Online_Kulkedisi());
+        }
+
+        private void Ofis_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Online_Kulkedisi());
+        }
+
+        private void Binbir_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Online_Kulkedisi());
+        }
+
+        private void Zombili_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Online_Kulkedisi());
+        }
+
+        private void Bana_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Online_Kulkedisi());
+        }
     }
 }

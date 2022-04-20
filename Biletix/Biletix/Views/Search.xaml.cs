@@ -35,12 +35,31 @@ namespace Biletix.Views
             myCollectionView.ItemsSource = events;
 
         }
+
+
         private void Sb_Text_Change(object sender, TextChangedEventArgs e)
         {
-            //var searchTerm = e.NewTextValue;
-            //searchTerm = searchTerm.ToLowerInvariant();
             var filteredItems = events.Where(a => a.name.ToLowerInvariant().StartsWith(e.NewTextValue));
             myCollectionView.ItemsSource = filteredItems;
+        }
+
+        private void Change_Page(System.Object sender, SelectionChangedEventArgs e)
+        {
+            
+            var b = e.CurrentSelection.FirstOrDefault() as Events_Search;
+
+            if(b.name == "Ilelebet... Bir Atatürk Hikayesi")
+            {
+                DisplayAlert("asdasd", "asdasd", "sadasd");
+                Navigation.PushAsync(new Online_Ilelebet());
+            }
+            else if(b.name == "Külkedisi")
+            {
+                Navigation.PushAsync(new Online_Kulkedisi());
+            }
+
+
+
         }
     }
 }

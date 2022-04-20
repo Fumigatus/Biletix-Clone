@@ -48,3 +48,4 @@ D:\Biletix-Clone\Biletix\Biletix\obj\Debug\netstandard2.0\Views\Tabbed_Page_Yaki
 D:\Biletix-Clone\Biletix\Biletix\obj\Debug\netstandard2.0\Views\Online_Ilelebet.xaml.g.cs
 D:\Biletix-Clone\Biletix\Biletix\obj\Debug\netstandard2.0\Views\Mekan_Page.xaml.g.cs
 D:\Biletix-Clone\Biletix\Biletix\obj\Debug\netstandard2.0\Views\Search.xaml.g.cs
+D:\Biletix-Clone\Biletix\Biletix\obj\Debug\netstandard2.0\Views\Online_Kulkedisi.xaml.g.cs

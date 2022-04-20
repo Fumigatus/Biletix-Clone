@@ -5,19 +5,17 @@
     <ContentPage.Content>
         <StackLayout>
             <SearchBar Placeholder="Ara" x:Name="searchBar" TextChanged="Sb_Text_Change"></SearchBar>
-            <CollectionView x:Name="myCollectionView" ItemsSource="{Binding events}">
+            <CollectionView x:Name="myCollectionView" SelectionChanged="Change_Page" SelectionMode="Single" ItemsSource="{Binding events}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <ScrollView>
-                            <Grid BackgroundColor="White">
-                                <Frame Padding="10" BorderColor="Black">
+                        <StackLayout>
+                            <Frame Padding="0" BorderColor="Black">
                                     <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" >
-                                        <ImageButton BackgroundColor="#0000" Source="{Binding image}" Grid.Row="0" Grid.Column="0" HeightRequest="100" WidthRequest="100"></ImageButton>
+                                        <Image BackgroundColor="#0000" Source="{Binding image}" Grid.Row="0" Grid.Column="0" HeightRequest="100" WidthRequest="100"></Image>
                                         <Label FontSize="20" Margin="20,0" TextColor="Black" VerticalOptions="Center" Text="{Binding name}"></Label>
                                     </StackLayout>
                                 </Frame>
-                            </Grid>
-                        </ScrollView>
+                        </StackLayout>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
