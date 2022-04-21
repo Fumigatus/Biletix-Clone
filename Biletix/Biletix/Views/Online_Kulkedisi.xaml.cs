@@ -12,7 +12,8 @@ namespace Biletix.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Online_Kulkedisi : ContentPage
     {
-        bool clicked;
+        bool notes_clicked=false;
+        bool info_clicked=false;
         public Online_Kulkedisi()
         {
             InitializeComponent();
@@ -22,17 +23,32 @@ namespace Biletix.Views
         {
             Navigation.PushAsync(new Mekan_Page());
         }
-        void Notlar_Clicked(object sender, EventArgs args)
+
+        void Notes_Clicked(object sender, EventArgs args)
         {
-            if (clicked == false)
+            if (notes_clicked == false)
             {
                 notesLabel.MaxLines = 15;
-                clicked = true;
+                notes_clicked = true;
             }
-            else if (clicked == true)
+            else if (notes_clicked == true)
             {
                 notesLabel.MaxLines = 1;
-                clicked = false;
+                notes_clicked = false;
+            }
+        }
+
+        void Info_Clicked(object sender, EventArgs e)
+        {
+            if (info_clicked == false)
+            {
+                infoLabel.MaxLines = 15;
+                info_clicked = true;
+            }
+            else if (notes_clicked == true)
+            {
+                infoLabel.MaxLines = 1;
+                info_clicked = false;
             }
         }
 

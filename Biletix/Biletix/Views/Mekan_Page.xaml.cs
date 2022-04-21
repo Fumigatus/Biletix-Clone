@@ -17,6 +17,7 @@ namespace Biletix.Views
         {
             InitializeComponent();
         }
+        
         void Mekan_Clicked(object sender, EventArgs args)
         {
             if (clicked == false)

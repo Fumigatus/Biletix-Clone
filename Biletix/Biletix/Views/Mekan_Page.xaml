@@ -57,7 +57,7 @@
                                         <Label Text="Külkedisi" FontAttributes="Bold" TextColor="Black"></Label>
                                         <Label Text="23:59"></Label>
                                     </StackLayout>
-                                    <Image Source="icon_more_than.png" WidthRequest="30" HorizontalOptions="EndAndExpand"></Image>
+                                    <ImageButton BackgroundColor="#0000" Source="icon_more_than.png" Clicked="Kulkedisi_Clicked" WidthRequest="30" HorizontalOptions="EndAndExpand"></ImageButton>
                                 </StackLayout>
 
                                 <StackLayout Orientation="Horizontal">
@@ -71,7 +71,7 @@
                                         <Label Text="Bir Ofis Gecesi Rüyası" FontAttributes="Bold" TextColor="Black"></Label>
                                         <Label Text="23:59"></Label>
                                     </StackLayout>
-                                    <Image Source="icon_more_than.png" WidthRequest="30" HorizontalOptions="EndAndExpand"></Image>
+                                    <ImageButton BackgroundColor="#0000" Source="icon_more_than.png" Clicked="Ofis_Clicked" WidthRequest="30" HorizontalOptions="EndAndExpand"></ImageButton>
                                 </StackLayout>
 
                                 <StackLayout Orientation="Horizontal">
@@ -85,7 +85,7 @@
                                         <Label Text="3+1 Zombili" FontAttributes="Bold" TextColor="Black"></Label>
                                         <Label Text="23:59"></Label>
                                     </StackLayout>
-                                    <Image Source="icon_more_than.png" WidthRequest="30" HorizontalOptions="EndAndExpand"></Image>
+                                    <ImageButton BackgroundColor="#0000" Source="icon_more_than.png" Clicked="Zombili_Clicked" WidthRequest="30" HorizontalOptions="EndAndExpand"></ImageButton>
                                 </StackLayout>
 
                                 <StackLayout Orientation="Horizontal">
@@ -99,7 +99,7 @@
                                         <Label Text="Bana Amy De" FontAttributes="Bold" TextColor="Black"></Label>
                                         <Label Text="23:59"></Label>
                                     </StackLayout>
-                                    <Image Source="icon_more_than.png" WidthRequest="30" HorizontalOptions="EndAndExpand"></Image>
+                                    <ImageButton BackgroundColor="#0000" Source="icon_more_than.png" Clicked="Bana_Clicked" WidthRequest="30" HorizontalOptions="EndAndExpand"></ImageButton>
                                 </StackLayout>
 
                                 <StackLayout Orientation="Horizontal">
@@ -113,7 +113,7 @@
                                         <Label Text="Binbir Gece Masalları" FontAttributes="Bold" TextColor="Black"></Label>
                                         <Label Text="23:59"></Label>
                                     </StackLayout>
-                                    <Image Source="icon_more_than.png" WidthRequest="30" HorizontalOptions="EndAndExpand"></Image>
+                                    <ImageButton BackgroundColor="#0000" Source="icon_more_than.png" Clicked="Binbir_Clicked" WidthRequest="30" HorizontalOptions="EndAndExpand"></ImageButton>
                                 </StackLayout>
                             </StackLayout> <!--event list end-->
                         </StackLayout>

@@ -10,11 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace Biletix.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Online_Ilelebet : ContentPage
+    public partial class Online_Ofis : ContentPage
     {
-        bool notes_clicked = true;
-        bool info_clicked = true;
-        public Online_Ilelebet()
+        bool notes_clicked = false;
+        bool info_clicked = false;
+        public Online_Ofis()
         {
             InitializeComponent();
         }

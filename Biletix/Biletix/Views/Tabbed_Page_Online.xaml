@@ -44,7 +44,7 @@
                     <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0">
                         <Grid>
                             <!--image + top text gradient-->
-                            <ImageButton Source="online_kulkedisi.jpg" Aspect="Fill"></ImageButton>
+                            <ImageButton Source="online_kulkedisi.jpg" Aspect="Fill" Clicked="Kulkedisi_Clicked"></ImageButton>
                             <Image Source="icon_heart.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
                             <Frame BackgroundColor="#00FBC1BC" Padding="0" VerticalOptions="Start" HorizontalOptions="Start" CornerRadius="10" IsClippedToBounds="True">
                                 <Label Text="ONLINE ETKINLIK" Padding="5" BackgroundColor="Purple" 
@@ -78,7 +78,7 @@
                     <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0">
                         <Grid>
                             <!--image + top text grid-->
-                            <ImageButton Source="online_ofis.jpg" Aspect="Fill"></ImageButton>
+                            <ImageButton Source="online_ofis.jpg" Aspect="Fill" Clicked="Ofis_Clicked"></ImageButton>
                             <Image Source="icon_heart.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
                             <Frame BackgroundColor="#00FBC1BC" Padding="0" VerticalOptions="Start" HorizontalOptions="Start" CornerRadius="10" IsClippedToBounds="True">
                                 <Label Text="ONLINE ETKINLIK" Padding="5" BackgroundColor="Purple" 
@@ -112,7 +112,7 @@
                     <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0">
                         <Grid>
                             <!--image + top text gradient-->
-                            <ImageButton Source="online_zombili.jpg" Aspect="Fill"></ImageButton>
+                            <ImageButton Source="online_zombili.jpg" Aspect="Fill" Clicked="Zombili_Clicked"></ImageButton>
                             <Image Source="icon_heart.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
                             <Frame BackgroundColor="#00FBC1BC" Padding="0" VerticalOptions="Start" HorizontalOptions="Start" CornerRadius="10" IsClippedToBounds="True">
                                 <Label Text="ONLINE ETKINLIK" Padding="5" BackgroundColor="Purple" 
@@ -135,7 +135,7 @@
                                     </LinearGradientBrush>
                                 </Grid.Background>
                                 <Label Text="31 Aralık" TextColor="White" Grid.Row="0"></Label>
-                                <Label Text="3+1 Zomili" TextColor="White" Grid.Row="1" FontAttributes="Bold"></Label>
+                                <Label Text="3+1 Zombili" TextColor="White" Grid.Row="1" FontAttributes="Bold"></Label>
                                 <Label Text="Tiyatronet, İstanbul" TextColor="White" Grid.Row="2"></Label>
                             </Grid>
                         </Grid>
@@ -146,7 +146,7 @@
                     <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0">
                         <Grid>
                             <!--image + top text gradient-->
-                            <ImageButton Source="online_bana.jpg" Aspect="Fill"></ImageButton>
+                            <ImageButton Source="online_bana.jpg" Aspect="Fill" Clicked="Bana_Clicked"></ImageButton>
                             <Image Source="icon_heart.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
                             <Frame BackgroundColor="#00FBC1BC" Padding="0" VerticalOptions="Start" HorizontalOptions="Start" CornerRadius="10" IsClippedToBounds="True">
                                 <Label Text="ONLINE ETKINLIK" Padding="5" BackgroundColor="Purple" 
@@ -180,7 +180,7 @@
                     <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0">
                         <Grid>
                             <!--image + top text gradient-->
-                            <ImageButton Source="online_binbir.jpg" Aspect="Fill"></ImageButton>
+                            <ImageButton Source="online_binbir.jpg" Aspect="Fill" Clicked="Binbir_Clicked"></ImageButton>
                             <Image Source="icon_heart.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
                             <Frame BackgroundColor="#00FBC1BC" Padding="0" VerticalOptions="Start" HorizontalOptions="Start" CornerRadius="10" IsClippedToBounds="True">
                                 <Label Text="ONLINE ETKINLIK" Padding="5" BackgroundColor="Purple" 

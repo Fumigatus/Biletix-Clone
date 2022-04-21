@@ -21,10 +21,30 @@ namespace Biletix.Views
         {
             await Navigation.PushAsync(new Online_Ilelebet());
         }
-        
-        private async void Kulkedisi_Clicked(object sender, EventArgs args)
+
+        private void Kulkedisi_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Online_Kulkedisi());
+            Navigation.PushAsync(new Online_Kulkedisi());
+        }
+
+        private void Ofis_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Online_Ofis());
+        }
+
+        private void Binbir_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Online_Binbir());
+        }
+
+        private void Zombili_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Online_Zombili());
+        }
+
+        private void Bana_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Online_Bana());
         }
     }
 }
