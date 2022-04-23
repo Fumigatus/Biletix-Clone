@@ -16,5 +16,12 @@ namespace Biletix.Views
         {
             InitializeComponent();
         }
+        public void Login_Clicked(object sender, EventArgs e)
+        {
+            if (emailEntry.Text == null || passEntry.Text == null)
+                DisplayAlert("Hata!", "Email ve şifre boş bırakılamaz!", "Tamam");
+            else
+                DisplayAlert("", "Giriş başarılı!", "Tamam");
+        }
     }
 }

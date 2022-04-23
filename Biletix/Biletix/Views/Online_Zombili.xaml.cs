@@ -18,6 +18,13 @@ namespace Biletix.Views
         {
             InitializeComponent();
         }
+        public void Devam_Clicked(object sender, EventArgs e)
+        {
+            if (pickerBolum == null || pickerSatis == null || pickerTarih == null)
+                DisplayAlert("", "Satış tipi, tarih veya bolüm boş olamaz.", "Tamam");
+            else
+                DisplayAlert("", "Bilet başarıyla alındı", "Tamam");
+        }
 
         void Mekan_Clicked(object sender, EventArgs args)
         {

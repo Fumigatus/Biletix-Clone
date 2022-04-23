@@ -93,17 +93,17 @@
                                 <Label Text="Bilet Ara" FontSize="Medium" TextColor="#009CDE"></Label>
                                 <Frame Padding="0.1" BackgroundColor="#e0e0e0"></Frame>
                                 <StackLayout Orientation="Horizontal">
-                                    <Picker Title="Kampanya Tipi" TitleColor="Gray" HorizontalOptions="Start" BackgroundColor="#f9f9f9">
+                                    <Picker x:Name="pickerSatis" Title="Kampanya Tipi" TitleColor="Gray" HorizontalOptions="Start" BackgroundColor="#f9f9f9">
                                         <Picker.Items>
-
+                                            <x:String>GENEL SATIŞ</x:String>
                                         </Picker.Items>
                                         <Picker.Effects>
                                             <customrenderer:Unlined/>
                                         </Picker.Effects>
                                     </Picker>
-                                    <Picker Title="Lütfen Seçin" TitleColor="Gray" BackgroundColor="#f9f9f9" HorizontalOptions="CenterAndExpand">
+                                    <Picker x:Name="pickerTarih" Title="Lütfen Seçin" TitleColor="Gray" BackgroundColor="#f9f9f9" HorizontalOptions="CenterAndExpand">
                                         <Picker.Items>
-
+                                            <x:String>31 Aralık 2022 23:59</x:String>
                                         </Picker.Items>
                                         <Picker.Effects>
                                             <customrenderer:Unlined/>
@@ -113,9 +113,9 @@
                                 <Label Text="Bilet Seçimi" FontSize="Medium"></Label>
                                 <Frame Padding="0.1" BackgroundColor="#e0e0e0"></Frame>
                                 <Label Text="Bölüm/ Blok"></Label>
-                                <Picker  Title="Lütfen Seçin" TitleColor="Gray" BackgroundColor="#f9f9f9" HorizontalOptions="Start">
+                                <Picker x:Name="pickerBolum" Title="Lütfen Seçin" TitleColor="Gray" BackgroundColor="#f9f9f9" HorizontalOptions="Start">
                                     <Picker.Items>
-
+                                        <x:String>GENEL 1</x:String>
                                     </Picker.Items>
                                     <Picker.Effects>
                                         <customrenderer:Unlined/>
@@ -136,7 +136,7 @@
                         <Frame Padding="5" Margin="0,0,0,15" BorderColor="#e0e0e0">
                             <StackLayout Padding="0,10">
                                 <Label Text="Eğer bu bileti istemiyorsanız bir daha aratın" VerticalOptions="Center" HorizontalOptions="Center"></Label>
-                                <Button Text="Devam" BackgroundColor="#009CDE" VerticalOptions="Center" HorizontalOptions="Center"></Button>
+                                <Button Clicked="Devam_Clicked" Text="Devam" BackgroundColor="#009CDE" VerticalOptions="Center" HorizontalOptions="Center"></Button>
                             </StackLayout>
                         </Frame>
                     </StackLayout>

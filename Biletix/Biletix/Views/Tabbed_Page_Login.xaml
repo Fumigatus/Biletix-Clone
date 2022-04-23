@@ -18,7 +18,7 @@
         <StackLayout Padding="20,25">
             <Label Text="Email"></Label>
             <Frame Padding="0" Margin="0">
-                <Entry Placeholder="Email" Keyboard="Email" Margin="0,0,50,0" >
+                <Entry x:Name="emailEntry" Placeholder="Email" Keyboard="Email" Margin="0,0,50,0" >
                     <Entry.Effects>
                         <customrenderer:Unlined/>
                     </Entry.Effects>
@@ -26,14 +26,14 @@
             </Frame>
             <Label Text="Şifre" Margin="0,10,0,0"></Label>
             <Frame Padding="0" Margin="0">
-                <Entry Placeholder="Şifre" Margin="0,0,50,0" IsPassword="True">
+                <Entry x:Name="passEntry" Placeholder="Şifre" Margin="0,0,50,0" IsPassword="True">
                     <Entry.Effects>
                         <customrenderer:Unlined/>
                     </Entry.Effects>
                 </Entry>
             </Frame>
             <Button Text="Şifremi Unuttum" BackgroundColor="White" TextColor="DeepPink" HorizontalOptions="Start"></Button>
-            <Button Text="GİRİŞ" HorizontalOptions="Center" WidthRequest="150"></Button>
+            <Button Clicked="Login_Clicked" Text="GİRİŞ" HorizontalOptions="Center" WidthRequest="150"></Button>
         </StackLayout>
     </ContentPage>
 
