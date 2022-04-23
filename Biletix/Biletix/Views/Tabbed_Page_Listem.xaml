@@ -28,6 +28,22 @@
                     <Image Source="icon_ticket.png" HorizontalOptions="EndAndExpand" Margin="10" HeightRequest="30"></Image>
                 </StackLayout>
             </Frame>
+            
+            <StackLayout>
+                <CarouselView IsBounceEnabled="True" x:Name="eventView">
+                    <CarouselView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout>
+                                <Frame Padding="1" BackgroundColor="Red"></Frame>
+                                <Label Text="{Binding name}" FontSize="Large" TextColor="Black" HorizontalOptions="Center"></Label>
+                                <Image Source="{Binding image}"></Image>
+                                <Frame Padding="1" BackgroundColor="Red"></Frame>
+                            </StackLayout>
+                        </DataTemplate>
+                    </CarouselView.ItemTemplate>
+                </CarouselView>
+            </StackLayout>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

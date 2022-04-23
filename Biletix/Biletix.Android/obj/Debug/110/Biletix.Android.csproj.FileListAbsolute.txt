@@ -1201,3 +1201,4 @@ D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_calenda
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_heart.png
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_more.png
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_info.png
+D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\hot_sut.jpg

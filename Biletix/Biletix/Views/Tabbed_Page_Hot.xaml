@@ -108,7 +108,7 @@
                 <Grid Grid.Row="5">
                     <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0">
                         <Grid>
-                            <ImageButton  Source="hot_fisekhane.jpg" Clicked="Fisek_Click" Aspect="AspectFill"></ImageButton>
+                            <ImageButton  Source="hot_fisekhane.jpg" Clicked="Fisek_Clicked" Aspect="AspectFill"></ImageButton>
                             <Image Source="icon_heart.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
                             <Grid  RowSpacing="0" VerticalOptions="End" Padding="15,10">
                                 <!--bottom text + gradient grid-->
