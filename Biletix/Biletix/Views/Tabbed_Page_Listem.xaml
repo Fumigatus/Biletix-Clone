@@ -13,7 +13,7 @@
                         <Label Text="Facebook" TextColor="Black"></Label>
                         <Label Text="Facebook" FontSize="10" TextColor="Black"></Label>
                     </StackLayout>
-                    <Image Source="icon_ticket_flyout.png" HorizontalOptions="EndAndExpand" Margin="10" HeightRequest="30"></Image>
+                    <Image Source="icon_ticket.png" HorizontalOptions="EndAndExpand" Margin="10" HeightRequest="30"></Image>
                 </StackLayout>
             </Frame>
             <BoxView HeightRequest="0"></BoxView> <!--gap-->
@@ -25,7 +25,7 @@
                         <Label Text="Music" TextColor="Black"></Label>
                         <Label Text="Music" FontSize="10" TextColor="Black"></Label>
                     </StackLayout>
-                    <Image Source="icon_ticket_flyout.png" HorizontalOptions="EndAndExpand" Margin="10" HeightRequest="30"></Image>
+                    <Image Source="icon_ticket.png" HorizontalOptions="EndAndExpand" Margin="10" HeightRequest="30"></Image>
                 </StackLayout>
             </Frame>
         </StackLayout>

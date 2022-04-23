@@ -48,12 +48,48 @@ namespace Biletix.Views
             
             var b = e.CurrentSelection.FirstOrDefault() as Events_Search;
 
-            if(b.name == "Ilelebet... Bir Atatürk Hikayesi")
+            if (b.name == "Ilelebet... Bir Atatürk Hikayesi")
             {
                 DisplayAlert("asdasd", "asdasd", "sadasd");
                 Navigation.PushAsync(new Online_Ilelebet());
             }
-            else if(b.name == "Külkedisi")
+            else if (b.name == "Külkedisi")
+            {
+                Navigation.PushAsync(new Online_Kulkedisi());
+            }
+            else if (b.name == "Bir Ofis Gecesi Rüyası")
+            {
+                Navigation.PushAsync(new Online_Ofis());
+            }
+            else if (b.name == "3+1 Zombili")
+            {
+                Navigation.PushAsync(new Online_Zombili());
+            }
+            else if (b.name == "Bana Amy De")
+            {
+                Navigation.PushAsync(new Online_Bana());
+            }
+            else if (b.name == "Binbir Gece Masalları")
+            {
+                Navigation.PushAsync(new Online_Binbir());
+            }
+            else if (b.name == "Yıldız Tilbe")
+            {
+                Navigation.PushAsync(new Online_Kulkedisi());
+            }
+            else if (b.name == "Dada Salon Kabarett")
+            {
+                Navigation.PushAsync(new Online_Kulkedisi());
+            }
+            else if (b.name == "BKM Etkinlikleri - Maximum Uniq")
+            {
+                Navigation.PushAsync(new Online_Kulkedisi());
+            }
+            else if (b.name == "Aydınlıkevler")
+            {
+                Navigation.PushAsync(new Online_Kulkedisi());
+            }
+            else if (b.name == "Fişekhane Sahne")
             {
                 Navigation.PushAsync(new Online_Kulkedisi());
             }
@@ -61,5 +97,5 @@ namespace Biletix.Views
 
 
         }
-    }
+        }
 }

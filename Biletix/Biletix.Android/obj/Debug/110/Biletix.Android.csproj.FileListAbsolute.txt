@@ -1184,7 +1184,6 @@ D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\hot_aydinlik
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\hot_bkm.jpg
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\hot_dada.jpg
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\hot_fisekhane.jpg
-D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\hot_sut.jpg
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_online_website.png
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\icon_search.png
 D:\Biletix-Clone\Biletix\Biletix.Android\obj\Debug\110\res\drawable\online_binbir.jpg

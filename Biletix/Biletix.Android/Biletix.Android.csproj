@@ -142,9 +142,6 @@
     <AndroidResource Include="Resources\drawable\hot_fisekhane.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\hot_sut.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable\hot_yildiz.jpg" />
   </ItemGroup>
   <ItemGroup>

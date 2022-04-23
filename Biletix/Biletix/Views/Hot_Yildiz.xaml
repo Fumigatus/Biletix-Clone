@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Biletix.Views.Hot_Yildiz"
+             Title="Yıldız Tilbe">
+    <ContentPage.Content>
+        <ScrollView>
+            
+        <StackLayout Padding="10">
+            <Image Source="hot_yildiz.png" Aspect="AspectFill"></Image>
+            <Label Text="Cmt, 26/03/22" FontSize="Small" FontAttributes="Bold" TextColor="Black"></Label>
+            <Label Text="İstanbul" FontSize="Small" FontAttributes="Bold" TextColor="Black"></Label>
+            <Frame Padding="3">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="icon_info.png" VerticalOptions="Start" HorizontalOptions="Start" HeightRequest="35"></Image>
+                    <StackLayout Spacing="0">
+                        <Label Text="Daha Fazla Bilgi" FontSize="Medium"></Label>
+                            <Label x:Name="infoLabel" Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." MaxLines="1"></Label>
+                    </StackLayout>
+                    <ImageButton Source="icon_more.png" Clicked="Clicked_More_Info" BackgroundColor="Transparent" VerticalOptions="Start" HorizontalOptions="EndAndExpand" HeightRequest="35"></ImageButton> 
+                </StackLayout>
+            </Frame>
+            <Frame Padding="5">
+                    <StackLayout>
+                        <Label Text="2 Yakınlardaki Etkinlik" FontSize="Medium" TextColor="#009CDE"></Label>
+                        <Frame Padding="0.1"></Frame>
+                        <StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="01" VerticalOptions="Center" TextColor="Black" FontAttributes="Bold" FontSize="50" Grid.RowSpan="2" Grid.ColumnSpan="2"></Label>
+                                <StackLayout Spacing="0" VerticalOptions="Center" Orientation="Vertical" Grid.Column="1">
+                                    <Label Text="Cmts"></Label>
+                                    <Label Text="Mar"></Label>
+                                    <Label Text="2022"></Label>
+                                </StackLayout>
+                                <StackLayout VerticalOptions="Center" Spacing="0" Margin="5,0">
+                                    <Label Text="Dada Salon Kabarett" FontAttributes="Bold" TextColor="Black"></Label>
+                                    <Label Text="21:00"></Label>
+                                </StackLayout>
+                                <ImageButton BackgroundColor="#0000" Source="icon_more_than.png" WidthRequest="30" HorizontalOptions="EndAndExpand"></ImageButton>
+                            </StackLayout>
+                            <Frame Padding="0.1"></Frame>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="12" VerticalOptions="Center" TextColor="Black" FontAttributes="Bold" FontSize="50" Grid.RowSpan="2" Grid.ColumnSpan="2"></Label>
+                                <StackLayout Spacing="0" VerticalOptions="Center" Orientation="Vertical" Grid.Column="1">
+                                    <Label Text="Cmts"></Label>
+                                    <Label Text="Mar"></Label>
+                                    <Label Text="2022"></Label>
+                                </StackLayout>
+                                <StackLayout VerticalOptions="Center" Spacing="0" Margin="5,0">
+                                    <Label Text="BKM Etkinlikleri - Maximum Uniq" FontAttributes="Bold" TextColor="Black"></Label>
+                                    <Label Text="21:00"></Label>
+                                </StackLayout>
+                                <ImageButton BackgroundColor="#0000" Source="icon_more_than.png"  WidthRequest="30" HorizontalOptions="EndAndExpand"></ImageButton>
+                            </StackLayout>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+                
+                <Frame Padding="5">
+                    <StackLayout>
+                        <Label Text="2 Diğer Etkinlik" FontSize="Medium" TextColor="#009CDE"></Label>
+                        <Frame Padding="0.1"></Frame>
+                        <StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="26" VerticalOptions="Center" TextColor="Black" FontAttributes="Bold" FontSize="50" Grid.RowSpan="2" Grid.ColumnSpan="2"></Label>
+                                <StackLayout Spacing="0" VerticalOptions="Center" Orientation="Vertical" Grid.Column="1">
+                                    <Label Text="Cmts"></Label>
+                                    <Label Text="Mar"></Label>
+                                    <Label Text="2022"></Label>
+                                </StackLayout>
+                                <StackLayout VerticalOptions="Center" Spacing="0" Margin="5,0">
+                                    <Label Text="Aydınlık Evler" FontAttributes="Bold" TextColor="Black"></Label>
+                                    <Label Text="21:00"></Label>
+                                </StackLayout>
+                                <ImageButton BackgroundColor="#0000" Source="icon_more_than.png"  WidthRequest="30" HorizontalOptions="EndAndExpand"></ImageButton>
+                            </StackLayout>
+                            <Frame Padding="0.1"></Frame>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="09" VerticalOptions="Center" TextColor="Black" FontAttributes="Bold" FontSize="50" Grid.RowSpan="2" Grid.ColumnSpan="2"></Label>
+                                <StackLayout Spacing="0" VerticalOptions="Center" Orientation="Vertical" Grid.Column="1">
+                                    <Label Text="Cmts"></Label>
+                                    <Label Text="Mar"></Label>
+                                    <Label Text="2022"></Label>
+                                </StackLayout>
+                                <StackLayout VerticalOptions="Center" Spacing="0" Margin="5,0">
+                                    <Label Text="Fişekhane Sahne" FontAttributes="Bold" TextColor="Black"></Label>
+                                    <Label Text="21:00"></Label>
+                                </StackLayout>
+                                <ImageButton BackgroundColor="#0000" Source="icon_more_than.png" WidthRequest="30" HorizontalOptions="EndAndExpand"></ImageButton>
+                            </StackLayout>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+                
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

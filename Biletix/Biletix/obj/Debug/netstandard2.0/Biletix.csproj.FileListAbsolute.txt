@@ -53,3 +53,8 @@ D:\Biletix-Clone\Biletix\Biletix\obj\Debug\netstandard2.0\Views\Online_Bana.xaml
 D:\Biletix-Clone\Biletix\Biletix\obj\Debug\netstandard2.0\Views\Online_Binbir.xaml.g.cs
 D:\Biletix-Clone\Biletix\Biletix\obj\Debug\netstandard2.0\Views\Online_Ofis.xaml.g.cs
 D:\Biletix-Clone\Biletix\Biletix\obj\Debug\netstandard2.0\Views\Online_Zombili.xaml.g.cs
+D:\Biletix-Clone\Biletix\Biletix\obj\Debug\netstandard2.0\Views\Hot_Yildiz.xaml.g.cs
+D:\Biletix-Clone\Biletix\Biletix\obj\Debug\netstandard2.0\Views\Hot_Aydinlik.xaml.g.cs
+D:\Biletix-Clone\Biletix\Biletix\obj\Debug\netstandard2.0\Views\Hot_BKM.xaml.g.cs
+D:\Biletix-Clone\Biletix\Biletix\obj\Debug\netstandard2.0\Views\Hot_Dada.xaml.g.cs
+D:\Biletix-Clone\Biletix\Biletix\obj\Debug\netstandard2.0\Views\Hot_Fisek.xaml.g.cs

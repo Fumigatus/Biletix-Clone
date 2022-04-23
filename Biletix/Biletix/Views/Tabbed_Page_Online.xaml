@@ -16,6 +16,7 @@
                                 <Label Text="ONLINE ETKINLIK" Padding="5" BackgroundColor="Purple" 
                                    TextColor="White" FontAttributes="Bold" HorizontalOptions="Start"
                                    VerticalOptions="Start">
+                                    <!--gradient-->
                                     <Label.Background>
                                         <LinearGradientBrush EndPoint="1,0">
                                             <GradientStop Color="Purple" Offset="0.1"></GradientStop>

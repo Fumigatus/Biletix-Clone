@@ -16,5 +16,30 @@ namespace Biletix.Views
         {
             InitializeComponent();
         }
+
+        public void Yildiz_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Hot_Yildiz());
+        }
+        public void BKM_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Hot_BKM());
+        }
+        public void Dada_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Hot_Dada());
+        }
+        public void Sut_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Hot_Sut());
+        }
+        public void Aydinlik_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Hot_Aydinlik());
+        }
+        public void Fisek_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Hot_Fisek());
+        }
     }
 }
