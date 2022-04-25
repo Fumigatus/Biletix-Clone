@@ -59,3 +59,4 @@ D:\Biletix-Clone\Biletix\Biletix\obj\Debug\netstandard2.0\Views\Hot_BKM.xaml.g.c
 D:\Biletix-Clone\Biletix\Biletix\obj\Debug\netstandard2.0\Views\Hot_Dada.xaml.g.cs
 D:\Biletix-Clone\Biletix\Biletix\obj\Debug\netstandard2.0\Views\Hot_Fisek.xaml.g.cs
 D:\Biletix-Clone\Biletix\Biletix\obj\Debug\netstandard2.0\Views\Hot_Sut.xaml.g.cs
+D:\Biletix-Clone\Biletix\Biletix\obj\Debug\netstandard2.0\Views\Cart.xaml.g.cs

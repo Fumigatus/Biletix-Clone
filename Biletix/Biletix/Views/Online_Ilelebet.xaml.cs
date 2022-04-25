@@ -23,7 +23,10 @@ namespace Biletix.Views
             if (pickerBolum.SelectedItem == null || pickerSatis.SelectedItem== null || pickerTarih.SelectedItem== null)
                 DisplayAlert("", "Satış tipi, tarih veya bolüm boş olamaz.", "Tamam");
             else
+            {
                 DisplayAlert("", "Bilet başarıyla alındı", "Tamam");
+                CartSingelton.Instance.AddCart(Title, img.Source.ToString());
+            }
         }
 
         void Mekan_Clicked(object sender, EventArgs args)

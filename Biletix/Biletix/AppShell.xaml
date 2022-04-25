@@ -20,7 +20,7 @@
 
 
     <FlyoutItem Title="Biletlerim" Icon="icon_ticket.png">
-        <ShellContent Route="AboutPage" ContentTemplate="{DataTemplate local:Tabbed_Page_Login}" /> <!--Login page-->
+        <ShellContent Route="AboutPage" ContentTemplate="{DataTemplate local:Cart}" /> <!--Login page-->
     </FlyoutItem>
     <FlyoutItem>
         <ShellContent/> <!--gap--> 

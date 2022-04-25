@@ -9,7 +9,7 @@
             <StackLayout Spacing="0">
                 <!--top info-->
                 <Grid>
-                    <Image Source="online_ilelebet.jpg" Grid.Row="0" Grid.Column="0"></Image>
+                    <Image x:Name="img" Source="online_ilelebet.jpg" Grid.Row="0" Grid.Column="0"></Image>
                     <Frame Grid.Column="1" Padding="15" HorizontalOptions="Center" VerticalOptions="Center">
                         <Grid>
                             <Label Text="31" Grid.Column="0" FontSize="35" TextColor="Black" VerticalOptions="Center"></Label>

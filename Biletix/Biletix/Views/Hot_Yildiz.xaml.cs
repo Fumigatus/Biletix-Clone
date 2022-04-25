@@ -12,24 +12,61 @@ namespace Biletix.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Hot_Yildiz : ContentPage
     {
-        bool clicked = false;
+        bool notes_clicked = false;
+        bool info_clicked = false;
         public Hot_Yildiz()
         {
             InitializeComponent();
         }
-
-        public void Clicked_More_Info(object sender, EventArgs e)
+        public void Devam_Clicked(object sender, EventArgs e)
         {
-            if (clicked == false)
-            {
-                infoLabel.MaxLines = 100;
-                clicked = true;
-            }
+            if (pickerBolum.SelectedItem == null || pickerSatis.SelectedItem == null || pickerTarih.SelectedItem == null)
+                DisplayAlert("", "Satış tipi, tarih veya bolüm boş olamaz.", "Tamam");
             else
+                DisplayAlert("", "Bilet başarıyla alındı", "Tamam");
+        }
+
+        void Mekan_Clicked(object sender, EventArgs args)
+        {
+            Navigation.PushAsync(new Mekan_Page());
+        }
+
+        void Notes_Clicked(object sender, EventArgs args)
+        {
+            if (notes_clicked == false)
+            {
+                notesLabel.MaxLines = 15;
+                notes_clicked = true;
+            }
+            else if (notes_clicked == true)
+            {
+                notesLabel.MaxLines = 1;
+                notes_clicked = false;
+            }
+        }
+
+        void Info_Clicked(object sender, EventArgs e)
+        {
+            if (info_clicked == false)
+            {
+                infoLabel.MaxLines = 15;
+                info_clicked = true;
+            }
+            else if (notes_clicked == true)
             {
                 infoLabel.MaxLines = 1;
-                clicked = false;
+                info_clicked = false;
             }
+        }
+
+        private void Website_Clicked(object sender, EventArgs e)
+        {
+            DisplayAlert("Resmi Site", "Site Bulunmamaktadır.", "Tamam");
+        }
+
+        private void Gallery_Clicked(object sender, EventArgs e)
+        {
+            DisplayAlert("Galeri ve Fotoğraflar", "Galeri ve Fotoğraflar Bulunmamaktadır.", "Tamam");
         }
     }
 }
