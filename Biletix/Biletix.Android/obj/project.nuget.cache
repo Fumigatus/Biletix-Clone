@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MCIbwgf8d/8yuehHdqwb4qi8ADmxETtGOXK4sMKbC01U5W72kKBBLIT6Oo6k262hcjjRbNDZ8hLktig9PHTxbQ==",
+  "dgSpecHash": "DW55KAWOCrwACFMM5te/kNFD5GiuDQY54mz526uJPR29ETFy/u7naEG6xKjLCADEFaTqkdrTGkVQN+czCL1xow==",
   "success": true,
-  "projectFilePath": "D:\\Biletix-Clone\\Biletix\\Biletix.Android\\Biletix.Android.csproj",
+  "projectFilePath": "C:\\Biletix-Clone\\Biletix\\Biletix.Android\\Biletix.Android.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\alpca\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\aysud\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation\\1.1.0.8\\xamarin.androidx.annotation.1.1.0.8.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation.experimental\\1.0.0.8\\xamarin.androidx.annotation.experimental.1.0.0.8.nupkg.sha512",

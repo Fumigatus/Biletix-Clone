@@ -105,6 +105,10 @@
                 </StackLayout>
                 <StackLayout Orientation="Horizontal">
                     <Picker Title="Seçiniz" HorizontalOptions="Start">
+                        <Picker.Items>
+                            <x:String>Erkek</x:String>
+                            <x:String>Kadın</x:String>
+                        </Picker.Items>
                         <Picker.Effects>
                             <customrenderer:Unlined/>
                         </Picker.Effects>

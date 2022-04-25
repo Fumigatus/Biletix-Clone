@@ -534,23 +534,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alpca\\.nuget\\packages\\": {},
+    "C:\\Users\\aysud\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Biletix-Clone\\Biletix\\Biletix\\Biletix.csproj",
+      "projectUniqueName": "C:\\Biletix-Clone\\Biletix\\Biletix\\Biletix.csproj",
       "projectName": "Biletix",
-      "projectPath": "D:\\Biletix-Clone\\Biletix\\Biletix\\Biletix.csproj",
-      "packagesPath": "C:\\Users\\alpca\\.nuget\\packages\\",
-      "outputPath": "D:\\Biletix-Clone\\Biletix\\Biletix\\obj\\",
+      "projectPath": "C:\\Biletix-Clone\\Biletix\\Biletix\\Biletix.csproj",
+      "packagesPath": "C:\\Users\\aysud\\.nuget\\packages\\",
+      "outputPath": "C:\\Biletix-Clone\\Biletix\\Biletix\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\alpca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aysud\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
