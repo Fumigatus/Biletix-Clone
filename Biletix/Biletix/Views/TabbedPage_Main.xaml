@@ -11,6 +11,7 @@
             <ImageButton Source="icon_search.png" BackgroundColor="#0000" HorizontalOptions="End" Margin="10,0" Clicked="Search_Clicked"/>
         </StackLayout>
     </Shell.TitleView>
+    <!--tabbed pages-->
     <local:Tabbed_Page_Listem Title="LİSTEM"></local:Tabbed_Page_Listem>
     <local:Tabbed_Page_Yakindakiler Title="YAKINIMDA"></local:Tabbed_Page_Yakindakiler>
     <local:Tabbed_Page_Online Title="ONLINE ETKİNLİKLER"></local:Tabbed_Page_Online>
