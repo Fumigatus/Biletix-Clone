@@ -7,7 +7,7 @@
             <Grid>
                 
                 <Grid Grid.Row="0">
-                    <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0">
+                    <Frame CornerRadius="10" Padding="0">
                         <Grid>
                             <!--image + top text gradient-->
                             <ImageButton  Source="online_ilelebet.jpg" Aspect="AspectFill" Clicked="Ilelebet_Clicked"></ImageButton>
