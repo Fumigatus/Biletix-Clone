@@ -6,7 +6,7 @@
         <ScrollView Padding="10">
             <Grid>
                 <Grid Grid.Row="0">
-                    <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0">
+                    <Frame CornerRadius="10" Padding="0">
                         <Grid>
                             <ImageButton  Source="hot_yildiz.jpg" Clicked="Yildiz_Clicked" Aspect="AspectFill"></ImageButton>
                             <Image Source="icon_heart.png" VerticalOptions="Start" HorizontalOptions="End" HeightRequest="40"></Image>
