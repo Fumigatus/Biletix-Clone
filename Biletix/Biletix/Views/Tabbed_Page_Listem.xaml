@@ -4,7 +4,7 @@
              x:Class="Biletix.Views.Tabbed_Page_Listem">
     <ContentPage.Content>
         <StackLayout Padding="15">
-            <Label Text="Müzik Tarzınızı Belirleyin" TextColor="Black" Margin="0,0,0,10" />
+            <Label Text="Müzik Tarzınızı Belirleyin!" TextColor="Black" Margin="0,0,0,10" />
                <!--Facebook-->
             <Frame BorderColor="#d0d0d0" Padding="1">
                 <StackLayout Orientation="Horizontal" HeightRequest="50">
