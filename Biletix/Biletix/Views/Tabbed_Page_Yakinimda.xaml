@@ -4,6 +4,7 @@
              x:Class="Biletix.Views.Tabbed_Page_Yakindakiler">
     <ContentPage.Content>
         <StackLayout Orientation="Horizontal" Padding="10" VerticalOptions="Start">
+            <!--icons-->
             <Image Source="icon_fav.png"></Image>
             <Image Source="icon_map.png" HeightRequest="40" HorizontalOptions="EndAndExpand"></Image>
             <Image Source="icon_calendar.png" HeightRequest="40" HorizontalOptions="End"></Image>
